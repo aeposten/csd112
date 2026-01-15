@@ -5,12 +5,110 @@
   <head>
     <meta charset="utf-8" />
     <!-- This is our metadata tag and it tells the browser what character set we are using-->
-    <title>Template</title>
+    <title>Week 02 - Basic HTML Elements</title>
     <!-- The title shows up on the browser tab and in search results. All pages must have one.-->
   </head>
   <body>
     <!--Everything seen by the user will be placed in this tag-->
-    <h1>Example Title</h1>
-    <p>Hello, World!</p>
+    <header>
+      <h1>Basic HTML Elements</h1>
+      <!-- This represents a container for introductory content or a set of navigational tools. This is not the same as a head tag-->
+      <nav>
+        <!--This represents a container for introductory content or a set of navigational links. This is not the same as the head tag-->
+        <ul>
+          <!-- Unordered List commonly store navigation -->
+          <li>Home</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- This represents the main content of the page and should only contain the information unique to it-->
+      <section>
+        <!--This defines independent sections within twithin the page content-->
+        <h2>Introductory Tags</h2>
+        <p>This is a paragraph tag. It holds paragraphs of text.</p>
+        <p>This is a paragraph tag. It holds paragraphs of text.</p>
+        <br />
+        <p>
+          This is a paragraph with a <br />
+          break tag.
+        </p>
+        <pre>
+          This is a
+          preformatted
+          paragraph.
+        </pre>
+        <hr />
+        <ul>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ul>
+        <ol type="A">
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ol>
+        <p>This is some content between list items</p>
+        <ol type="A" start="4">
+          <li>
+            List Item
+            <ol type="a">
+              <li>Sub Item</li>
+              <li>Sub Item</li>
+            </ol>
+          </li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ol>
+        <dl>
+          <!-- Definition List - use for terms and definitions -->
+          <dt>Definition Term</dt>
+          <dd>Definition Details</dd>
+          <dt>Dog</dt>
+          <dd>A four-legged creature known for its friendly temperament.</dd>
+        </dl>
+      </section>
+      <article>
+        <!-- This defines independent sections within the page content that make sense without the context of the rest of the page-->
+        <h2>Advanced HTML Tags</h2>
+        <p>&quot;I'm a quote!&quot;</p>
+        <p><q>I'm a quote in a quote tag!</q></p>
+        <blockquote>
+          <q
+            >The quick brown fox jumps over the lazy dog. This is a lot of
+            stuff. The quick brown fox jumps over the lazy dog. The quick brown
+            fox jumps over the lazy dog. The quick brown fox jumps over the lazy
+            dog.</q
+          >
+          <br />
+          <cite>-Here is a citation</cite>
+        </blockquote>
+        <p>
+          These are some special character entities: &reg; &copy; &#37; &amp;
+          &lt; &gt;
+        </p>
+        <code> &lt;html&gt; </code>
+        <p>
+          H<sub>2</sub>0
+          <br />
+          4<sup>2</sup>
+        </p>
+        <p>
+          This information is brought to you by the <abbr title="World Health Organization">WHO.</abbr>
+        </p>
+      </article>
+      <aside>
+        <!-- This defines content aside from the content aside from the content it is placed in. It should be indirectly related to what it surrounds-->
+      </aside>
+    </main>
+
+    <footer>
+      <!--This typically contains non-essential information such as authorship, copyright, additional links/resources, and basic sitemaps-->
+      <address>
+        1234 Street Rd. City, State 12345<br />
+      </address>
+    </footer>
   </body>
 </html>
