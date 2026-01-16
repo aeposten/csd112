@@ -14,7 +14,7 @@ This course is an introduction to HyperText Markup Language (HTML) and Cascading
 
 ## Assignment 01: Creating Basic HTML Elements
 
-**[View Project Files](https://github.com/aeposten/csd112/tree/main/assignments/assignment-1)**
+**[View Assignment Files](https://github.com/aeposten/csd112/tree/main/assignments/assignment-1)**
 
 ### Overview
 This assignment focuses on the structural foundation of the web. I practiced using semantic HTML5 tags to ensure the document is readable by both browsers and assistive technologies.
