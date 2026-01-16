@@ -73,5 +73,5 @@ It also gave me some practice using the aria-pressed attribute.
 I generated the fun, accessible color scheme using [Randoma11y](https://randoma11y.com/)!
 
 ## Deployed Page
-You can view the live project here:  
+You can view the live assignment:  
 [https://aeposten.github.io/csd112/](https://aeposten.github.io/csd112/)
