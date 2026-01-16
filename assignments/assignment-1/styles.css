@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/* Imported fonts */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
+/* Variables */
 :root {
   --purple: #242d81;
   --green: #e8fd90;
 }
 
+/* Resets */
 *,
 *::before,
 *::after {
@@ -15,23 +18,9 @@
   margin: 0;
 }
 
-html {
-  background-color: var(--purple);
-  color: var(--green);
-}
+html,
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  font-family: "DM Sans", sans-serif;
-}
-
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
+  height: 100%;
 }
 
 input,
@@ -39,6 +28,18 @@ button,
 textarea,
 select {
   font: inherit;
+}
+/* Global Color Scheme */
+html {
+  background-color: var(--purple);
+  color: var(--green);
+}
+
+/* Typography */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "DM Sans", sans-serif;
 }
 
 p,
@@ -51,8 +52,13 @@ h6 {
   overflow-wrap: break-word;
 }
 
-p {
-  text-wrap: pretty;
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
 }
 
 h1,
@@ -65,17 +71,25 @@ h6 {
   font-family: "Crimson Text", serif;
 }
 
+p {
+  text-wrap: pretty;
+}
+
+/* Layout */
 header {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 ul {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0;
-    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+section {
+  margin: 2em 1em;
 }
 
 button {
@@ -84,4 +98,9 @@ button {
   color: var(--green);
   border: 0.1em solid var(--green);
   border-radius: 0.5em;
+}
+
+button:hover {
+  background-color: var(--green);
+  color: var(--purple);
 }
