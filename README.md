@@ -17,7 +17,7 @@ This course is an introduction to HyperText Markup Language (HTML) and Cascading
 ### Overview
 This assignment focuses on the structural foundation of the web. I practiced using semantic HTML5 tags to ensure the document is readable by both browsers and assistive technologies.
 
-**Screenshot:**
+**Screenshots:**
 <br>
 <img src="/assignments/assignment-1/img/assignment-01-screenshot.png" width="400" alt="Screenshot for page created for assignment 1, with CSS Styling.">
 <img src="/assignments/assignment-1/img/assignment-01-screenshot2.png" width="400" alt="Screenshot for page created for assignment 1, without CSS Styling.">
