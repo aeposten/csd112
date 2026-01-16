@@ -29,7 +29,7 @@ This assignment focuses on the structural foundation of the web. I practiced usi
 
 ### Assignment Requirements
 <details>
-<summary>Click to view full checklist</summary>
+<summary>Click to view full requirements</summary>
 
 * `doctype` for HTML5
 * `html` tag
@@ -65,7 +65,7 @@ This assignment focuses on the structural foundation of the web. I practiced usi
 For this assignment, I created a page dedicated to the wizards of the *Adventure Time* universe. I used semantic sections to categorize each wizard and applied the required HTML elements to build out their lore.
 
 #### "The Magic Toggle"
-While the assignment focused on HTML structure, I definitely went overboard. I have only written Python and Java since starting the program, and I REALLY miss web development, so I decided to add some CSS to the page for fun. I added a custom JavaScript function that allows users to "Disable Magic." By clicking the button in the navigation bar, all CSS is disabled, revealing the semantic HTML structure underneath. 
+While the assignment focused on HTML structure, I definitely went overboard. I have only written Python and Java since starting at LW Tech, and I REALLY miss web development, so I decided to add some CSS to the page for fun. I added a custom JavaScript function that allows users to "Disable Magic." By clicking the button in the navigation bar, all CSS is disabled, revealing the semantic HTML structure underneath. 
 
 It also gave me some practice using the aria-pressed attribute.
 
