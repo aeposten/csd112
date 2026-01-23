@@ -9,7 +9,7 @@ This course is an introduction to HyperText Markup Language (HTML) and Cascading
 ## Navigation
 
 - [Assignment 01: Creating Basic HTML Elements](#assignment-01-creating-basic-html-elements)
-- _Assignment 02: (Coming Soon)_
+- [Assignment 02: Understanding Images & Copyright](#assignment-02-understanding-images--copyright)
 - _Assignment 03: (Coming Soon)_
 
 ---
@@ -86,3 +86,62 @@ I generated the fun, accessible color scheme using [Randoma11y](https://randoma1
 
 You can view the live assignment:  
 [https://aeposten.github.io/csd112/](https://aeposten.github.io/csd112/)
+
+---
+
+## Assignment 02: Understanding Images & Copyright
+
+**[View Assignment Files](https://github.com/aeposten/csd112/tree/main/assignments/assignment-2)**
+
+### Overview
+
+This assignment focused on semantic HTML structure and foundational web literacy surrounding image usage, copyright, and optimization.
+
+### Assignment Objectives
+
+- Create a well-structured HTML document using semantic elements
+- Demonstrate understanding of common image types used on the web
+- Explain copyright, fair use, and image licensing
+- Introduce image optimization concepts and tools
+
+### Assignment Requirements
+
+<details>
+<summary>Click to view full requirements</summary>
+
+- `title` element in the `head` using the format **"Lastname Assignment 2"**
+- `header` section containing an `h1` with the text **"Images and Copyright"**
+- **Article: Image Types**
+  - `article` tag
+  - `h2` heading: *Image Types*
+  - Explanation of the 3 main image types used in HTML
+  - Description of when to use each image type
+  - A section listing citations used
+- **Article: Copyright**
+  - `article` tag
+  - `h2` heading: *Copyright*
+  - Explanation of copyright
+  - Explanation of fair use
+  - Two types of copyright licenses and their uses
+  - Explanation of how to verify permission to use an image
+  - Links to 3 websites that provide usable images
+  - A section listing citations used
+- **Article: Image Optimization**
+  - `article` tag
+  - `h2` heading: *Image Optimization*
+  - Explanation of image compression/optimization
+  - Why image optimization is necessary
+  - Links to 3 image optimization tools or software
+  - A section listing citations used
+- `footer` element containing a copyright symbol, year, and my first and last name
+- Use of semantic HTML throughout the document
+
+</details>
+
+### My Submission
+
+
+## Deployed Page
+
+You can view the live assignment:  
+
