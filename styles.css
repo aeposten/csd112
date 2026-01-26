@@ -1,0 +1,89 @@
+/ * {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.site-header,
+.site-footer {
+  padding: 1.25rem 1.5rem;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.card {
+  padding: 1rem 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+code {
+  padding: 0.15em 0.35em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.nav-list {
+  padding-left: 1.25rem;
+}
+
+.details summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.details[open] summary {
+  margin-bottom: 0.75rem;
+}
+
+.image-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.image-row img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
