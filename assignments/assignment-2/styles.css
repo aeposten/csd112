@@ -15,7 +15,7 @@ body {
   text-wrap: pretty;
   font-family: "Alice", monospace;
   background-color: var(--color-background);
-  color: var(--color-text)
+  color: var(--color-text);
 }
 h1,
 h2,
@@ -49,7 +49,7 @@ main {
 a {
   color: inherit;
   text-decoration: none;
-  font-style:italic;
+  font-style: italic;
 }
 a:hover {
   text-decoration: underline;
