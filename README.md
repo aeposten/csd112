@@ -97,6 +97,10 @@ You can view the live assignment:
 
 This assignment focused on semantic HTML structure and foundational web literacy surrounding image usage, copyright, and optimization.
 
+**Screenshots:**
+<br>
+<img src="/assignments/assignment-2/assets/assignment-02-screenshot.png" width="400" alt="Screenshot for page created for assignment 2, with CSS Styling.">
+
 ### Assignment Objectives
 
 - Create a well-structured HTML document using semantic elements
@@ -113,13 +117,13 @@ This assignment focused on semantic HTML structure and foundational web literacy
 - `header` section containing an `h1` with the text **"Images and Copyright"**
 - **Article: Image Types**
   - `article` tag
-  - `h2` heading: *Image Types*
+  - `h2` heading: _Image Types_
   - Explanation of the 3 main image types used in HTML
   - Description of when to use each image type
   - A section listing citations used
 - **Article: Copyright**
   - `article` tag
-  - `h2` heading: *Copyright*
+  - `h2` heading: _Copyright_
   - Explanation of copyright
   - Explanation of fair use
   - Two types of copyright licenses and their uses
@@ -128,7 +132,7 @@ This assignment focused on semantic HTML structure and foundational web literacy
   - A section listing citations used
 - **Article: Image Optimization**
   - `article` tag
-  - `h2` heading: *Image Optimization*
+  - `h2` heading: _Image Optimization_
   - Explanation of image compression/optimization
   - Why image optimization is necessary
   - Links to 3 image optimization tools or software
@@ -140,8 +144,6 @@ This assignment focused on semantic HTML structure and foundational web literacy
 
 ### My Submission
 
-
 ## Deployed Page
 
-You can view the live assignment:  
-
+You can view the live assignment:
