@@ -37,6 +37,7 @@ body {
   padding: 2rem;
 }
 
+/* Typography */
 h1,
 h2,
 h3,
@@ -68,20 +69,21 @@ main {
   gap: 1.5rem;
 }
 
+/* Header */
 .recipe-header {
   text-align: center;
   padding-bottom: 1rem;
   border-bottom: 2px solid var(--color-border);
 }
 
-.recipe-header h1 {
+.recipe-title {
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--color-border);
   letter-spacing: 0.1em;
 }
 
-/* Recipe Info */
+/* Recipe Info Section */
 .recipe-info,
 .recipe-details,
 .detail-item {
@@ -121,20 +123,21 @@ main {
   font-size: 0.9rem;
 }
 
-/* Ingredients and Directions */
-.ingredients h3 {
+/* Section Titles */
+.section-title {
   text-align: center;
   font-size: 1.5rem;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
 }
 
+/* Ingredients Section */
 .ingredients-columns {
   display: flex;
   gap: 2rem;
 }
 
-/* Shared list styles */
+/* Lists - Shared Styles */
 .ingredients-list,
 .directions-list {
   margin: 0;
@@ -154,30 +157,30 @@ main {
   gap: 1rem;
 }
 
-/* Shared list item styles */
-.ingredients-list li,
-.directions-list li {
+/* List Items - Shared Styles */
+.ingredient-item,
+.direction-step {
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--color-border-light);
   font-size: 0.95rem;
 }
 
-.ingredients-list li {
+.ingredient-item {
   line-height: 1.4;
 }
 
-.directions-list li {
+.direction-step {
   padding-bottom: 1rem;
   line-height: 1.6;
 }
 
-.directions-list li:last-child {
+.direction-step:last-child {
   border-bottom: none;
 }
 
 /* Footer Styles */
 .recipe-footer,
-footer {
+.page-footer {
   text-align: center;
 }
 
@@ -194,28 +197,28 @@ footer {
   margin: 0;
 }
 
-/* Shared link styles */
-.attribution a,
-footer a {
+/* Link Styles */
+.attribution-link,
+.footer-link {
   color: var(--color-border);
   text-decoration: none;
 }
 
-.attribution a:hover,
-footer a:hover {
+.attribution-link:hover,
+.footer-link:hover {
   text-decoration: underline;
 }
 
-footer {
+.page-footer {
   padding: 2rem 1rem;
   font-size: 0.9rem;
 }
 
-footer p {
+.footer-text {
   margin: 0;
 }
 
-footer a {
+.footer-link {
   font-style: italic;
 }
 
@@ -243,7 +246,7 @@ footer a {
     gap: 0.5rem;
   }
 
-  .recipe-header h1 {
+  .recipe-title {
     font-size: 2rem;
   }
 }

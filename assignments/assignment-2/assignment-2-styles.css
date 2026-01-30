@@ -3,6 +3,7 @@
   --color-background: #fef3c7;
   --color-text: #92400e;
 }
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -76,10 +77,10 @@ main {
 
 .content-column {
   flex: 2;
-  padding: 1 rem;
+  padding: 1rem;
 }
 
 .aside-column {
   flex: 1;
-  padding: 1 rem;
+  padding: 1rem;
 }
