@@ -10,7 +10,7 @@ This course is an introduction to HyperText Markup Language (HTML) and Cascading
 
 - [Assignment 01: Creating Basic HTML Elements](#assignment-01-creating-basic-html-elements)
 - [Assignment 02: Understanding Images & Copyright](#assignment-02-understanding-images--copyright)
-- _Assignment 03: (Coming Soon)_
+- [Assignment 03: Styling a Recipe with CSS](#assignment-03-styling-a-recipe-with-css)
 
 ---
 
@@ -146,4 +146,58 @@ This assignment focused on semantic HTML structure and foundational web literacy
 
 ## Deployed Page
 
-You can view the live assignment:
+https://aeposten.github.io/csd112/assignments/assignment-3/
+
+## You can view the live assignment:
+
+## Assignment 03: Styling a Recipe with CSS
+
+**[View Assignment Files](https://github.com/aeposten/csd112/tree/main/assignments/assignment-3)**
+
+### Overview
+
+This assignment focused on applying CSS styling to a real-world content scenario: a recipe. The goal was to combine semantic HTML structure with internal CSS to create a visually styled, readable document while practicing different selector types and common CSS properties.
+
+### Assignment Objectives
+
+- Practice using internal CSS via the `<style>` tag
+- Apply different types of CSS selectors
+- Explore common CSS properties such as color, font size, spacing, and backgrounds
+- Use semantic HTML to logically structure content
+
+### Assignment Requirements
+
+<details>
+<summary>Click to view full requirements</summary>
+
+- Create a properly structured semantic HTML document
+- Correctly utilize at least three types of HTML elements
+  - Examples: unordered lists for ingredients, ordered lists for steps, images for final results
+- Use **internal CSS**, referenced in the `head` using the `<style>` tag
+- Style at least one property using:
+  - A **tag selector**
+  - An **ID selector**
+  - A **class selector**
+- Apply styling to at least **four CSS properties overall**
+  - Examples: `color`, `font-size`, `background-color`, `padding`
+- Use a **real recipe**, not placeholder or filler text
+- Cite the recipe source if a pre-existing recipe is used
+
+</details>
+
+### My Submission
+
+For this assignment, I created a recipe page structured with semantic HTML elements to clearly separate ingredients, preparation steps, and supporting content. I used internal CSS to style the page and applied tag, class, and ID selectors to demonstrate different ways of targeting elements.
+
+This assignment helped reinforce how CSS and HTML work together to transform a well-structured document into something visually engaging, while still maintaining accessibility and logical organization.
+
+### Key Takeaways
+
+Styling content effectively starts with strong semantic structure. Working with a real recipe emphasized the importance of choosing the correct HTML elements first, then layering CSS on top to improve readability, hierarchy, and overall user experience.
+
+---
+
+## Deployed Page
+
+You can view the live assignment:  
+https://aeposten.github.io/csd112/assignments/assignment-3/
