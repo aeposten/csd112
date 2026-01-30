@@ -213,3 +213,20 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ingredients-columns {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .recipe-details {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .recipe-header h1 {
+    font-size: 2rem;
+  }
+}
