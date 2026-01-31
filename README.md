@@ -25,12 +25,12 @@ This assignment focused on the structural foundation of the web. I practiced usi
 **Screenshots:**
 <br>
 <img
-  src="/assignments/assignment-1/assets/assignment-01-screenshot.png"
+  src="assignments/assignment-1/assets/assignment-01-screenshot.png"
   width="400"
   alt="Screenshot for page created for Assignment 01 with CSS styling enabled."
 >
 <img
-  src="/assignments/assignment-1/assets/assignment-01-screenshot2.png"
+  src="assignments/assignment-1/assets/assignment-01-screenshot2.png"
   width="400"
   alt="Screenshot for page created for Assignment 01 with CSS disabled, showing semantic HTML structure."
 >
@@ -95,10 +95,9 @@ This assignment focused on semantic HTML structure and foundational web literacy
 **Screenshots:**
 <br>
 <img
-  src="/assignments/assignment-2/assets/assignment-02-screenshot.png"
+  src="assignments/assignment-2/assets/assignment-02-screenshot.png"
   width="400"
-  alt="Screenshot of Assignment 02 showing the article-based layout with Flexbox-styled content and citations."
->
+  alt="Screenshot of Assignment 02 showing the article-based layout with Flexbox-styled content and citations.">
 
 ### Assignment Objectives
 
@@ -155,15 +154,13 @@ This assignment focused on applying CSS styling to a real-world content scenario
 **Screenshots:**
 <br>
 <img
-  src="/assignments/assignment-3/assets/assignment-03-screenshot.png"
+  src="assignments/assignment-3/assets/assignment-03-screenshot.png"
   width="400"
-  alt="Screenshot of the recipe card layout for Assignment 03 showing styled ingredients and recipe details."
->
+  alt="Screenshot of the recipe card layout for Assignment 03 showing styled ingredients and recipe details.">
 <img
-  src="/assignments/assignment-3/assets/assignment-03-screenshot2.png"
+  src="assignments/assignment-3/assets/assignment-03-screenshot2.png"
   width="400"
-  alt="Screenshot of Assignment 03 demonstrating responsive styling with stacked layout on smaller screens."
->
+  alt="Screenshot of Assignment 03 demonstrating responsive styling with stacked layout on smaller screens.">
 
 The second screenshot demonstrates responsive behavior, where ingredient columns and layout sections stack vertically on smaller screen sizes using CSS Flexbox and media queries.
 
