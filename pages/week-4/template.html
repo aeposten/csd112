@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <title>Week 04 - Introduction to CSS</title>
+    <style>
+        /* This is internal CSS */
+        body {
+            background-color: white;
+        }
+        
+        p {
+            color: yellow;
+            margin: 10px 0;
+        }
+        
+        .blue {
+            color: blue;
+            font-style: italic;
+        }
+        
+        p.blue {
+            color: blue;
+        }
+        
+        .big {
+            font-size: 64px;
+            font-style: italic;
+        }
+        
+        .big, .blue {
+            font-style: italic;
+        }
+        
+        h2.blue {
+            color: lightblue;
+        }
+        
+        #test {
+            color: antiquewhite;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        nav.main-nav ul li {
+            display: inline;
+            color: white;
+            margin: 5px 15px;
+            background-color: darkblue;
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+        
+        nav.main-nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        #logo {
+            padding: 0;
+            border-radius: 0;
+            background-color: transparent;
+        }
+        
+        ul.social-links li {
+            display: inline;
+            margin: 5px 10px;
+        }
+        
+        footer {
+            background-color: lightgray;
+            padding: 30px 15px;
+            margin-top: 75px;
+        }
+        
+        footer ul {
+            text-align: center;
+        }
+        
+        footer p {
+            text-align: center;
+            color: black;
+        }
+        
+        nav.main-nav ul {
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body style="margin:0;">
+<header>
+    <nav class="main-nav">
+        <img src="/media/fake-logo.png" width="20%" id="logo">
+        <ul>
+           <li><a href="template.html">Home</a></li>
+           <li><a href="/pages/weeks-1-and-2/template.html">About</a></li>
+           <li>Contact</li>
+           <li><a href="#test">Test</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="hero" style="background-image:url(/media/hero.jpg); background-size:cover; height:25vh;">
+        <h1>Images &amp; Links</h1>
+    </section>
+    <article>
+        <h2>HTML Images</h2>
+        <img src="/media/iguana.jpg" alt="A green iguana resting on a rock in front of the ocean." width="25%" />
+        <image src="/media/horse.jpg" alt="A brown and white horse standing in a field." width="25%" />
+        <img src ="/media/tortoise.jpg" alt="A tortoise walking on grass." width="25%" />
+    </article>
+    <section>
+        <p class="blue">This is some blue text.</p>
+        <p class="big">This is some big text.</p>
+        <p class="blue big">This is some blue and big text.</p>
+    </section>
+    <section>
+        <h2 id="test" class="blue">Test Anchor Tag Link</h2>
+        <p>This is an example of how you can use IDs to link to specific parts of a document. Remember that IDs are unique and can only be used once per element, per page.</p>
+    </section>
+</main>
+<footer>
+    <ul class="social-links">
+        <li><a href="http://www.facebook.com" target="_blank"><img src="/media/facebook.png" alt="Facebook logo" width="32" /></a></li>
+        <li><a href="http://www.instagram.com" target="_blank"><img src="/media/instagram.png" alt="Instagram logo" width="32" /></a></li>
+        <li><a href="tel:+1234567890"><img src="/media/phone.png" alt="Phone icon" width="32" /></a></li>
+        <li><a href="mailto:amy.posten@example.com&subject=Hello"><img src="/media/email.png" alt="Email icon" width="32" /></a></li>
+    </ul>
+    <p>Copyright &copy; Amy Posten 2026</p>
+</footer>
+    </body>
+</html>
