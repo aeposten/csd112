@@ -27,13 +27,11 @@ This assignment focused on the structural foundation of the web. I practiced usi
 <img
   src="assignments/assignment-1/assets/assignment-01-screenshot.png"
   width="400"
-  alt="Screenshot for page created for Assignment 01 with CSS styling enabled."
->
+  alt="Screenshot for page created for Assignment 01 with CSS styling enabled.">
 <img
   src="assignments/assignment-1/assets/assignment-01-screenshot2.png"
   width="400"
-  alt="Screenshot for page created for Assignment 01 with CSS disabled, showing semantic HTML structure."
->
+  alt="Screenshot for page created for Assignment 01 with CSS disabled, showing semantic HTML structure.">
 
 ### Assignment Objectives
 
