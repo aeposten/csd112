@@ -177,6 +177,7 @@ The second screenshot demonstrates responsive behavior, where ingredient columns
 - Properly structured semantic HTML document
 - Use of multiple HTML elements (lists, headings, footer, etc.)
 - Use of **internal CSS** via the `<style>` tag
+  - Use a stylesheet if you feel ambitious
 - Styling using:
   - A tag selector
   - A class selector
@@ -189,8 +190,9 @@ The second screenshot demonstrates responsive behavior, where ingredient columns
 
 ### My Submission
 
-For this assignment, I created a “Best Chocolate Chip Cookies” recipe page using semantic HTML and a two-card layout. Flexbox was used extensively to control spacing, alignment, multi-column ingredients, and responsive behavior. Typography, color variables, and consistent spacing were applied to create a cohesive visual design.
+For this assignment, I styled my favorite Chocolate Chip Cookie recipe, [Broma Bakery's– Best Chocolate Chip Cookies](https://bromabakery.com/best-chocolate-chip-cookies/). I knew from reading the assignment description that I wanted to style the page to look like a recipe card. Initially, I thought I'd model it after a classic index card with blue lines, but after doing a search for "Recipe Cards" I found [Papier's – Double Cherry Recipe Card](https://www.papier.com/us/double-cherry-53673) and decided to use it as the model for my design.
 
+I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom organization, and code comments. I continued my commitment to accessibility with aria labeling and challenged myself by adding responsive styling. 
 ### Credits
 
 - **Recipe source:**  
