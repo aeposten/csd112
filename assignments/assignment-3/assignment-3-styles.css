@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alice&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Candal&family=Alice&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 :root {
   --color-background: #e8dcc8;
@@ -7,7 +7,7 @@
   --color-border-light: rgba(139, 58, 58, 0.3);
   --color-text: #4a2020;
   --border-radius: 12px;
-  --font-heading: "Alfa Slab One", serif;
+  --font-heading: "Candal", sans-serif;
   --font-body: "Alice", serif;
   --font-accent: "Playfair Display", serif;
 }
