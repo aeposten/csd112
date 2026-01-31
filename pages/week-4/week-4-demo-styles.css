@@ -1,0 +1,83 @@
+body {
+  background-color: white;
+}
+
+p {
+  color: yellow;
+  margin: 10px 0;
+}
+
+.blue {
+  color: blue;
+  font-style: italic;
+}
+
+p.blue {
+  color: blue;
+}
+
+.big {
+  font-size: 64px;
+  font-style: italic;
+}
+
+.big,
+.blue {
+  font-style: italic;
+}
+
+h2.blue {
+  color: lightblue;
+}
+
+#test {
+  color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav.main-nav ul li {
+  display: inline;
+  color: white;
+  margin: 5px 15px;
+  background-color: darkblue;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+nav.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#logo {
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+ul.social-links li {
+  display: inline;
+  margin: 5px 10px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 30px 15px;
+  margin-top: 75px;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  color: black;
+}
+
+nav.main-nav ul {
+  text-align: center;
+}
