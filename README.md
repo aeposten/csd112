@@ -11,6 +11,7 @@ This course is an introduction to HyperText Markup Language (HTML) and Cascading
 - [Assignment 01: Creating Basic HTML Elements](#assignment-01-creating-basic-html-elements)
 - [Assignment 02: Understanding Images & Copyright](#assignment-02-understanding-images--copyright)
 - [Assignment 03: Styling a Recipe with CSS](#assignment-03-styling-a-recipe-with-css)
+- [Assignment 04: Typography and Color with CSS](#assignment-04-typography-and-color-with-css)
 
 ---
 
@@ -44,31 +45,31 @@ This assignment focused on the structural foundation of the web. I practiced usi
 <details>
 <summary>Click to view full requirements</summary>
 
-- `doctype` for HTML5  
-- `html`, `head`, and `body` tags  
-- UTF-8 `meta` tag  
-- `title` (Name – Assignment 01)  
-- **Semantic elements:** `header`, `nav`, `main`, `section` or `article`, `aside`, `footer`  
-- At least two different heading elements  
-- Two paragraphs  
-- One preformatted paragraph (`pre`)  
-- One quote or blockquote with citation  
-- Two list styles (ordered and unordered)  
-- One `address`  
-- Horizontal rule (`hr`)  
-- Line break (`br`)  
-- Comment with name in the `head`  
-- Four symbols or entities  
-- One HTML code snippet  
-- One `sup` and one `sub`  
+- `doctype` for HTML5
+- `html`, `head`, and `body` tags
+- UTF-8 `meta` tag
+- `title` (Name – Assignment 01)
+- **Semantic elements:** `header`, `nav`, `main`, `section` or `article`, `aside`, `footer`
+- At least two different heading elements
+- Two paragraphs
+- One preformatted paragraph (`pre`)
+- One quote or blockquote with citation
+- Two list styles (ordered and unordered)
+- One `address`
+- Horizontal rule (`hr`)
+- Line break (`br`)
+- Comment with name in the `head`
+- Four symbols or entities
+- One HTML code snippet
+- One `sup` and one `sub`
 
 </details>
 
 ### My Submission: Favorite Adventure Time Wizards
 
-For this assignment, I created a page dedicated to the wizards of the *Adventure Time* universe. Semantic sections were used to group content logically and meet all required HTML elements.
+For this assignment, I created a page dedicated to the wizards of the _Adventure Time_ universe. Semantic sections were used to group content logically and meet all required HTML elements.
 
-#### “Magic Toggle”
+#### "Magic Toggle"
 
 Although the assignment focused on HTML structure, I added optional CSS and JavaScript for fun. A navigation button allows users to disable all CSS, revealing the underlying semantic structure. This also gave me practice using the `aria-pressed` attribute.
 
@@ -109,8 +110,8 @@ This assignment focused on semantic HTML structure and foundational web literacy
 <details>
 <summary>Click to view full requirements</summary>
 
-- `title` element using the format **“Lastname Assignment 2”**
-- `header` section with an `h1` titled **“Images and Copyright”**
+- `title` element using the format **"Lastname Assignment 2"**
+- `header` section with an `h1` titled **"Images and Copyright"**
 - **Article: Image Types**
   - `article` element
   - `h2` heading
@@ -192,7 +193,8 @@ The second screenshot demonstrates responsive behavior, where ingredient columns
 
 For this assignment, I styled my favorite Chocolate Chip Cookie recipe, [Broma Bakery's– Best Chocolate Chip Cookies](https://bromabakery.com/best-chocolate-chip-cookies/). I knew from reading the assignment description that I wanted to style the page to look like a recipe card. Initially, I thought I'd model it after a classic index card with blue lines, but after doing a search for "Recipe Cards" I found [Papier's – Double Cherry Recipe Card](https://www.papier.com/us/double-cherry-53673) and decided to use it as the model for my design.
 
-I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom organization, and code comments. I continued my commitment to accessibility with aria labeling and challenged myself by adding responsive styling. 
+I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom organization, and code comments. I continued my commitment to accessibility with aria labeling and challenged myself by adding responsive styling.
+
 ### Credits
 
 - **Recipe source:**  
@@ -201,7 +203,134 @@ I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom org
 - **Recipe card design inspiration:**  
   [Papier – Double Cherry Recipe Card](https://www.papier.com/us/double-cherry-53673)
 
-
 ### Deployed Page
 
 https://aeposten.github.io/csd112/assignments/assignment-3/
+
+---
+
+## Assignment 04: Typography and Color with CSS
+
+**[View Assignment Files](https://github.com/aeposten/csd112/tree/main/assignments/assignment-4)**
+
+### Overview
+
+This assignment focused on advanced CSS typography and color theory. I created a newspaper-inspired layout with multiple web-hosted fonts, a local font using `@font-face`, and various CSS color spaces. The project emphasizes responsive design and accessibility with ARIA landmarks.
+
+**Screenshots:**
+<br>
+<img
+  src="assignments/assignment-4/assets/assignment-04-screenshot.png"
+  width="400"
+  alt="Screenshot of The Daily Feline newspaper layout on mobile showing stacked article layout.">
+<img
+  src="assignments/assignment-4/assets/assignment-04-screenshot2.png"
+  width="400"
+  alt="Screenshot of The Daily Feline newspaper layout on desktop showing grid-based responsive layout.">
+
+### Assignment Objectives
+
+- Practice using local fonts with `@font-face`
+- Practice implementing web-hosted fonts
+- Utilize various web color spaces
+- Create a mobile-responsive layout
+
+### Assignment Requirements
+
+<details>
+<summary>Click to view full requirements</summary>
+
+**HTML Requirements:**
+
+- Properly structured semantic HTML document
+- At least 2 different heading levels
+- At least 3 paragraphs
+- At least one blockquote
+- At least one list type with minimum 3 items
+
+**CSS Styling - Typography:**
+
+- Change paragraphs to a sans-serif font
+- Change headings to 2 different fonts using Google or Adobe fonts
+- Change blockquote to a local font using `@font-face` rule
+- Change list items to a serif font
+- Utilize each property at least once:
+  - `font-size`
+  - `font-weight`
+  - `font-style`
+  - `text-align`
+  - `text-transform`
+  - `line-height`
+
+**CSS Styling - Color:**
+
+- Change heading level one using a keyword color
+- Change heading level two using a hexcode
+- Apply slightly transparent background to blockquote using RGBA
+- Change color of list items using HSL or HSLA
+
+**Additional Requirements:**
+
+- Internal CSS (using `<style>` tag) OR external stylesheet
+- Mobile responsive design
+
+</details>
+
+### My Submission: The Daily Feline
+
+For this assignment, I created "The Daily Feline," a newspaper-inspired page featuring humorous cat-themed articles generated by [Cat Ipsum](http://www.catipsum.com/).
+
+#### Typography Implementation
+
+I implemented a carefully curated font stack:
+
+- **Instrument Serif** (Google Font) for the h1 masthead
+- **Oswald** (Google Font) for h2 article headlines with uppercase transformation
+- **Instrument Sans** (Google Font) for body paragraphs
+- **Merriweather** (Google Font) for list items
+- **Crimson Text** (local font via `@font-face`) for the blockquote
+
+#### Color Space Exploration
+
+The assignment required using different CSS color formats:
+
+- **Keyword color** (`white`) for h1
+- **Hexcode** (`#f5fcff`) for h2
+- **RGBA** (`rgba(245, 252, 255, 0.15)`) for transparent blockquote background
+- **HSL** (`hsl(242 72.4% 17.9%)`) for list item text
+
+#### Responsive Grid Layout
+
+I implemented a mobile-first responsive design using CSS Grid:
+
+- **Mobile:** Single column, vertical stacking
+- **Tablet (768px+):** Two-column grid with strategic placement
+- **Desktop (1024px+):** Newspaper-style layout with sidebar
+- **Large Desktop (1440px+):** Scaled typography and increased max-width
+
+#### CSS Organization & Best Practices
+
+To improve maintainability, I implemented:
+
+- **CSS Variables** for colors, fonts, spacing, and borders
+- **Section comments** for clear code organization
+- **Combined selectors** to reduce duplication
+- **Semantic class names** (`.site-header`, `.news-grid`, `.site-footer`)
+
+#### Accessibility Enhancements
+
+I enhanced accessibility with comprehensive ARIA implementation:
+
+- **Landmark roles:** `role="banner"`, `role="main"`, `role="complementary"`, `role="contentinfo"`
+- **Article labeling:** Connected articles to headlines using `aria-labelledby`
+- **Descriptive labels:** Added `aria-label` to main content and quote box
+- **Security:** Added `rel="noopener"` to external link
+
+### Credits
+
+- **Content generated by:**  
+  [Cat Ipsum](http://www.catipsum.com/)
+
+### Deployed Page
+
+https://aeposten.github.io/csd112/assignments/assignment-4/
