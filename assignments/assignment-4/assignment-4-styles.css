@@ -1,3 +1,23 @@
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+/* Local Font */
+@font-face {
+  font-family: "Crimson Text";
+  src: url("assets/CrimsonText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url("assets/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
 /* CSS Reset */
 *,
 *::before,
@@ -16,8 +36,71 @@ body {
 body {
   background-color: #10593b;
   color: #f5fcff;
+  font-family: "Instrument Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-wrap: pretty;
+}
+
+/* Typography - Headings */
+h1 {
+  font-family: "Instrument Serif", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Typography - Body Text */
+p {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+}
+
+/* Typography - Blockquote */
+blockquote {
+  font-family: "Crimson Text", serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+blockquote p {
+  font-family: inherit;
+  font-style: inherit;
+}
+
+/* Typography - Lists */
+ul {
+  font-family: "Merriweather", serif;
+  list-style-position: inside;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+li {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+/* Tagline */
+.tagline {
+  font-size: 0.875rem;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.5rem;
 }
 
 /* Layout */
@@ -49,6 +132,7 @@ footer {
   padding: 1.5rem 1rem;
   border-top: 2px solid #f5fcff;
   margin-top: auto;
+  font-size: 0.875rem;
 }
 
 /* Article Sections */
