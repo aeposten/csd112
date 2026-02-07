@@ -47,6 +47,8 @@ h1 {
   font-size: 3rem;
   font-weight: 400;
   margin: 0;
+  color: white; /* Keyword color */
+  text-align: center;
 }
 
 h2 {
@@ -56,6 +58,7 @@ h2 {
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  color: #f5fcff; /* Hexcode color */
 }
 
 /* Typography - Body Text */
@@ -73,6 +76,8 @@ blockquote {
   font-style: italic;
   margin: 0;
   padding: 1.5rem;
+  background-color: rgba(245, 252, 255, 0.15); /* RGBA with transparency */
+  border-left: 4px solid #f5fcff;
 }
 
 blockquote p {
@@ -93,6 +98,7 @@ li {
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 0.5rem;
+  color: hsl(242 72.4% 17.9%); /* HSL */
 }
 
 /* Tagline */
@@ -141,6 +147,12 @@ aside,
 section {
   padding: 1.5rem;
   border: 1px solid #f5fcff;
+}
+
+/* Featured List */
+.featured-list {
+  background-color: rgba(245, 252, 255, 0.15);
+  border-left: 4px solid #f5fcff;
 }
 
 /* Links */
