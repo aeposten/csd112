@@ -18,7 +18,37 @@
   font-display: swap;
 }
 
-/* CSS Reset */
+/* CSS Variables */
+:root {
+  /* Colors */
+  --color-background: #10593b;
+  --color-text: #f5fcff;
+  --color-accent: white;
+  --color-list: hsl(242 72.4% 17.9%);
+  --color-overlay: rgba(245, 252, 255, 0.15);
+
+  /* Fonts */
+  --font-heading-primary: "Instrument Serif", serif;
+  --font-heading-secondary: "Oswald", sans-serif;
+  --font-body: "Instrument Sans", sans-serif;
+  --font-quote: "Crimson Text", serif;
+  --font-list: "Merriweather", serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Borders */
+  --border-thin: 1px solid var(--color-text);
+  --border-medium: 2px solid var(--color-text);
+  --border-thick: 3px solid var(--color-text);
+  --border-accent: 4px solid var(--color-text);
+}
+
+/* Resets and Base Styles */
 *,
 *::before,
 *::after {
@@ -32,52 +62,60 @@ body {
   padding: 0;
 }
 
-/* Base Styles */
 body {
-  background-color: #10593b;
-  color: #f5fcff;
-  font-family: "Instrument Sans", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   text-wrap: pretty;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-/* Typography - Headings */
-h1 {
-  font-family: "Instrument Serif", serif;
-  font-size: 2.5rem;
-  font-weight: 400;
+/* Typography*/
+
+/* Headings - Shared Properties */
+h1,
+h2 {
   margin: 0;
-  color: white; /* Keyword color */
+  font-weight: 400;
+}
+
+h1 {
+  font-family: var(--font-heading-primary);
+  font-size: 2.5rem;
+  color: var(--color-accent); /* Keyword color */
   text-align: center;
 }
 
 h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--font-heading-secondary);
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 0 0 1rem 0;
+  margin-bottom: var(--spacing-sm);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #f5fcff; /* Hexcode color */
+  color: var(--color-text); /* Hexcode color */
 }
 
-/* Typography - Body Text */
+/* Body Text */
 p {
-  font-family: "Instrument Sans", sans-serif;
+  font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.6;
-  margin: 0 0 1rem 0;
+  margin: 0 0 var(--spacing-sm) 0;
 }
 
-/* Typography - Blockquote */
+/* Blockquote */
 blockquote {
-  font-family: "Crimson Text", serif;
+  font-family: var(--font-quote);
   font-size: 1.25rem;
   font-style: italic;
   margin: 0;
-  padding: 1.5rem;
-  background-color: rgba(245, 252, 255, 0.15); /* RGBA with transparency */
-  border-left: 4px solid #f5fcff;
+  padding: var(--spacing-md);
+  background-color: var(--color-overlay); /* RGBA with transparency */
+  border-left: var(--border-accent);
 }
 
 blockquote p {
@@ -85,79 +123,77 @@ blockquote p {
   font-style: inherit;
 }
 
-/* Typography - Lists */
+/* Lists */
 ul {
-  font-family: "Merriweather", serif;
+  font-family: var(--font-list);
   list-style-position: inside;
   padding: 0;
-  margin: 1rem 0;
+  margin: var(--spacing-sm) 0;
 }
 
 li {
-  font-family: "Merriweather", serif;
+  font-family: var(--font-list);
   font-size: 1rem;
   line-height: 1.8;
-  margin-bottom: 0.5rem;
-  color: hsl(242 72.4% 17.9%); /* HSL */
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-list); /* HSL */
 }
 
-/* Tagline */
-.tagline {
-  font-size: 0.875rem;
-  font-style: italic;
+/* Layout Components*/
+
+/* Header & Footer - Shared Styles */
+.site-header,
+.site-footer {
   text-align: center;
-  margin-top: 0.5rem;
+  padding: var(--spacing-lg) var(--spacing-sm);
 }
 
-/* Layout */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.site-header {
+  border-bottom: var(--border-thick);
 }
 
-header {
-  text-align: center;
-  padding: 2rem 1rem;
-  border-bottom: 3px solid #f5fcff;
-}
-
-main {
-  flex: 1;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-footer {
-  text-align: center;
-  padding: 1.5rem 1rem;
-  border-top: 2px solid #f5fcff;
+.site-footer {
+  border-top: var(--border-medium);
   margin-top: auto;
   font-size: 0.875rem;
 }
 
-/* Article Sections */
+.tagline {
+  font-size: 0.875rem;
+  font-style: italic;
+  margin-top: var(--spacing-xs);
+}
+
+/* Main Content */
+.news-grid {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--spacing-lg) var(--spacing-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+/* Article Sections - Shared Styles */
 article,
 aside,
 section {
-  padding: 1.5rem;
-  border: 1px solid #f5fcff;
+  padding: var(--spacing-md);
+  border: var(--border-thin);
 }
 
-/* Featured List */
+/* Featured Elements with Overlay */
+.quote-box,
 .featured-list {
-  background-color: rgba(245, 252, 255, 0.15); /* RGBA with transparency */
-  border-left: 4px solid #f5fcff;
+  background-color: var(--color-overlay);
+  border-left: var(--border-accent);
 }
 
-/* Links */
+/*Links*/
 a {
-  color: #f5fcff;
+  color: var(--color-text);
   text-decoration: underline;
 }
 
@@ -165,27 +201,24 @@ a:hover {
   opacity: 0.8;
 }
 
-/* Responsive Design - Tablet (768px and up) */
+/*Responsive Design */
+
+/* Tablet (768px and up) */
 @media (min-width: 768px) {
+  /* Typography Scaling */
   h1 {
     font-size: 3.5rem;
   }
-
   h2 {
     font-size: 1.875rem;
   }
 
-  header {
-    padding: 3rem 2rem;
+  /* Layout Adjustments */
+  .site-header {
+    padding: var(--spacing-xl) var(--spacing-lg);
   }
 
-  main {
-    padding: 3rem 2rem;
-    gap: 2.5rem;
-  }
-
-  /* Two-column grid layout for tablet */
-  main {
+  .news-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -193,86 +226,59 @@ a:hover {
       "quote quote"
       "secondary featured"
       "third third";
-  }
-
-  .lead-story {
-    grid-area: lead;
-  }
-
-  .quote-box {
-    grid-area: quote;
-  }
-
-  .secondary-story {
-    grid-area: secondary;
-  }
-
-  .featured-list {
-    grid-area: featured;
-  }
-
-  .third-story {
-    grid-area: third;
+    padding: var(--spacing-xl) var(--spacing-lg);
+    gap: 2.5rem;
   }
 
   article,
   aside,
   section {
-    padding: 2rem;
+    padding: var(--spacing-lg);
+  }
+
+  /* Grid Area Assignments */
+  .lead-story {
+    grid-area: lead;
+  }
+  .quote-box {
+    grid-area: quote;
+  }
+  .secondary-story {
+    grid-area: secondary;
+  }
+  .featured-list {
+    grid-area: featured;
+  }
+  .third-story {
+    grid-area: third;
   }
 }
 
-/* Responsive Design - Desktop (1024px and up) */
+/* Desktop (1024px and up) */
 @media (min-width: 1024px) {
+  /* Typography Scaling */
   h1 {
     font-size: 4rem;
   }
-
   h2 {
     font-size: 2rem;
   }
-
   p {
     font-size: 1.0625rem;
   }
-
   blockquote {
     font-size: 1.5rem;
   }
 
-  /* Three-column grid layout for desktop */
-  main {
+  /* Layout Adjustments */
+  .news-grid {
     grid-template-columns: 2fr 1fr;
     grid-template-areas:
       "lead quote"
       "secondary quote"
       "featured third";
-  }
-
-  .lead-story {
-    grid-area: lead;
-  }
-
-  .quote-box {
-    grid-area: quote;
-  }
-
-  .secondary-story {
-    grid-area: secondary;
-  }
-
-  .featured-list {
-    grid-area: featured;
-  }
-
-  .third-story {
-    grid-area: third;
-  }
-
-  /* Better spacing for larger screens */
-  main {
-    padding: 4rem 3rem;
-    gap: 3rem;
+    padding: 4rem var(--spacing-xl);
+    gap: var(--spacing-xl);
   }
 
   article,
@@ -288,7 +294,7 @@ a:hover {
     font-size: 4.5rem;
   }
 
-  main {
+  .news-grid {
     max-width: 1400px;
   }
 }
