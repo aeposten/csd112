@@ -1,0 +1,70 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base Styles */
+body {
+  background-color: #10593b;
+  color: #f5fcff;
+  -webkit-font-smoothing: antialiased;
+  text-wrap: pretty;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 3px solid #f5fcff;
+}
+
+main {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-top: 2px solid #f5fcff;
+  margin-top: auto;
+}
+
+/* Article Sections */
+article,
+aside,
+section {
+  padding: 1.5rem;
+  border: 1px solid #f5fcff;
+}
+
+/* Links */
+a {
+  color: #f5fcff;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.8;
+}
