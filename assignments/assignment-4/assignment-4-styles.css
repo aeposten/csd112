@@ -1,7 +1,7 @@
 /* Google Fonts Import */
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-/* Local Font */
+/* Local Fonts*/
 @font-face {
   font-family: "Crimson Text";
   src: url("assets/CrimsonText-Regular.ttf") format("truetype");
@@ -44,7 +44,7 @@ body {
 /* Typography - Headings */
 h1 {
   font-family: "Instrument Serif", serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
   margin: 0;
   color: white; /* Keyword color */
@@ -53,7 +53,7 @@ h1 {
 
 h2 {
   font-family: "Oswald", sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
@@ -151,7 +151,7 @@ section {
 
 /* Featured List */
 .featured-list {
-  background-color: rgba(245, 252, 255, 0.15);
+  background-color: rgba(245, 252, 255, 0.15); /* RGBA with transparency */
   border-left: 4px solid #f5fcff;
 }
 
@@ -163,4 +163,132 @@ a {
 
 a:hover {
   opacity: 0.8;
+}
+
+/* Responsive Design - Tablet (768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  header {
+    padding: 3rem 2rem;
+  }
+
+  main {
+    padding: 3rem 2rem;
+    gap: 2.5rem;
+  }
+
+  /* Two-column grid layout for tablet */
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "lead lead"
+      "quote quote"
+      "secondary featured"
+      "third third";
+  }
+
+  .lead-story {
+    grid-area: lead;
+  }
+
+  .quote-box {
+    grid-area: quote;
+  }
+
+  .secondary-story {
+    grid-area: secondary;
+  }
+
+  .featured-list {
+    grid-area: featured;
+  }
+
+  .third-story {
+    grid-area: third;
+  }
+
+  article,
+  aside,
+  section {
+    padding: 2rem;
+  }
+}
+
+/* Responsive Design - Desktop (1024px and up) */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.0625rem;
+  }
+
+  blockquote {
+    font-size: 1.5rem;
+  }
+
+  /* Three-column grid layout for desktop */
+  main {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "lead quote"
+      "secondary quote"
+      "featured third";
+  }
+
+  .lead-story {
+    grid-area: lead;
+  }
+
+  .quote-box {
+    grid-area: quote;
+  }
+
+  .secondary-story {
+    grid-area: secondary;
+  }
+
+  .featured-list {
+    grid-area: featured;
+  }
+
+  .third-story {
+    grid-area: third;
+  }
+
+  /* Better spacing for larger screens */
+  main {
+    padding: 4rem 3rem;
+    gap: 3rem;
+  }
+
+  article,
+  aside,
+  section {
+    padding: 2.5rem;
+  }
+}
+
+/* Large Desktop (1440px and up) */
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  main {
+    max-width: 1400px;
+  }
 }
