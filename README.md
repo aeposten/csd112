@@ -45,29 +45,29 @@ This assignment focused on the structural foundation of the web. I practiced usi
 <details>
 <summary>Click to view full requirements</summary>
 
-- `doctype` for HTML5
-- `html`, `head`, and `body` tags
-- UTF-8 `meta` tag
-- `title` (Name – Assignment 01)
-- **Semantic elements:** `header`, `nav`, `main`, `section` or `article`, `aside`, `footer`
-- At least two different heading elements
-- Two paragraphs
-- One preformatted paragraph (`pre`)
-- One quote or blockquote with citation
-- Two list styles (ordered and unordered)
-- One `address`
-- Horizontal rule (`hr`)
-- Line break (`br`)
-- Comment with name in the `head`
-- Four symbols or entities
-- One HTML code snippet
-- One `sup` and one `sub`
+- `doctype` for HTML5  
+- `html`, `head`, and `body` tags  
+- UTF-8 `meta` tag  
+- `title` (Name – Assignment 01)  
+- **Semantic elements:** `header`, `nav`, `main`, `section` or `article`, `aside`, `footer`  
+- At least two different heading elements  
+- Two paragraphs  
+- One preformatted paragraph (`pre`)  
+- One quote or blockquote with citation  
+- Two list styles (ordered and unordered)  
+- One `address`  
+- Horizontal rule (`hr`)  
+- Line break (`br`)  
+- Comment with name in the `head`  
+- Four symbols or entities  
+- One HTML code snippet  
+- One `sup` and one `sub`  
 
 </details>
 
 ### My Submission: Favorite Adventure Time Wizards
 
-For this assignment, I created a page dedicated to the wizards of the _Adventure Time_ universe. Semantic sections were used to group content logically and meet all required HTML elements.
+For this assignment, I created a page dedicated to the wizards of the *Adventure Time* universe. Semantic sections were used to group content logically and meet all required HTML elements.
 
 #### "Magic Toggle"
 
@@ -193,8 +193,7 @@ The second screenshot demonstrates responsive behavior, where ingredient columns
 
 For this assignment, I styled my favorite Chocolate Chip Cookie recipe, [Broma Bakery's– Best Chocolate Chip Cookies](https://bromabakery.com/best-chocolate-chip-cookies/). I knew from reading the assignment description that I wanted to style the page to look like a recipe card. Initially, I thought I'd model it after a classic index card with blue lines, but after doing a search for "Recipe Cards" I found [Papier's – Double Cherry Recipe Card](https://www.papier.com/us/double-cherry-53673) and decided to use it as the model for my design.
 
-I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom organization, and code comments. I continued my commitment to accessibility with aria labeling and challenged myself by adding responsive styling.
-
+I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom organization, and code comments. I continued my commitment to accessibility with aria labeling and challenged myself by adding responsive styling. 
 ### Credits
 
 - **Recipe source:**  
@@ -202,6 +201,7 @@ I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom org
 
 - **Recipe card design inspiration:**  
   [Papier – Double Cherry Recipe Card](https://www.papier.com/us/double-cherry-53673)
+
 
 ### Deployed Page
 
@@ -219,10 +219,12 @@ This assignment focused on advanced CSS typography and color theory. I created a
 
 **Screenshots:**
 <br>
+<!-- Placeholder for mobile screenshot -->
 <img
   src="assignments/assignment-4/assets/assignment-04-screenshot.png"
   width="400"
   alt="Screenshot of The Daily Feline newspaper layout on mobile showing stacked article layout.">
+<!-- Placeholder for desktop screenshot -->
 <img
   src="assignments/assignment-4/assets/assignment-04-screenshot2.png"
   width="400"
@@ -241,7 +243,6 @@ This assignment focused on advanced CSS typography and color theory. I created a
 <summary>Click to view full requirements</summary>
 
 **HTML Requirements:**
-
 - Properly structured semantic HTML document
 - At least 2 different heading levels
 - At least 3 paragraphs
@@ -249,7 +250,6 @@ This assignment focused on advanced CSS typography and color theory. I created a
 - At least one list type with minimum 3 items
 
 **CSS Styling - Typography:**
-
 - Change paragraphs to a sans-serif font
 - Change headings to 2 different fonts using Google or Adobe fonts
 - Change blockquote to a local font using `@font-face` rule
@@ -263,14 +263,12 @@ This assignment focused on advanced CSS typography and color theory. I created a
   - `line-height`
 
 **CSS Styling - Color:**
-
 - Change heading level one using a keyword color
 - Change heading level two using a hexcode
 - Apply slightly transparent background to blockquote using RGBA
 - Change color of list items using HSL or HSLA
 
 **Additional Requirements:**
-
 - Internal CSS (using `<style>` tag) OR external stylesheet
 - Mobile responsive design
 
@@ -278,53 +276,17 @@ This assignment focused on advanced CSS typography and color theory. I created a
 
 ### My Submission: The Daily Feline
 
-For this assignment, I created "The Daily Feline," a newspaper-inspired page featuring humorous cat-themed articles generated by [Cat Ipsum](http://www.catipsum.com/).
+For this assignment, I created "The Daily Feline," a newspaper-inspired page featuring humorous cat-themed articles generated by [Cat Ipsum](http://www.catipsum.com/). The layout uses a dark forest green background (`#10593b`) with light cyan text (`#f5fcff`) for a unique, vintage newspaper aesthetic.
 
-#### Typography Implementation
+The typography implementation showcases a carefully curated font stack. I used Instrument Serif from Google Fonts for the h1 masthead, giving it an elegant newspaper feel. For the h2 article headlines, I chose Oswald from Google Fonts with uppercase transformation to create bold, attention-grabbing headers. Body paragraphs use Instrument Sans from Google Fonts for clean, readable text, while list items feature Merriweather from Google Fonts for a traditional serif appearance. The blockquote uses Crimson Text, a local font implemented via the `@font-face` rule to meet the assignment requirement.
 
-I implemented a carefully curated font stack:
+The assignment required exploring different CSS color formats, which I applied strategically throughout the design. The h1 uses the keyword color `white` for simplicity and clarity. Article headlines (h2) use the hexcode `#f5fcff` to maintain consistency with the accent color. The blockquote features a subtle transparent background using RGBA (`rgba(245, 252, 255, 0.15)`) at 15% opacity, creating a gentle highlight effect. List items use HSL (`hsl(242 72.4% 17.9%)`) for a dark navy blue color that complements the green background.
 
-- **Instrument Serif** (Google Font) for the h1 masthead
-- **Oswald** (Google Font) for h2 article headlines with uppercase transformation
-- **Instrument Sans** (Google Font) for body paragraphs
-- **Merriweather** (Google Font) for list items
-- **Crimson Text** (local font via `@font-face`) for the blockquote
+I implemented a mobile-first responsive design using CSS Grid that adapts seamlessly across screen sizes. On mobile devices, all content stacks vertically in a single column for easy reading. At the tablet breakpoint (768px and up), the layout transitions to a two-column grid with strategic article placement. The desktop layout (1024px and up) adopts a true newspaper-style design with a sidebar, placing the quote box alongside the main articles. For large desktop screens (1440px and up), typography scales up and the maximum width increases to take advantage of the additional space.
 
-#### Color Space Exploration
+To improve code maintainability, I organized the CSS using modern best practices. CSS variables define all colors, fonts, spacing values, and border styles in one central location, making theme changes simple. Section comments clearly divide the stylesheet into logical groups like typography, layout components, and responsive design. I combined similar selectors to eliminate duplication and used semantic class names like `.site-header`, `.news-grid`, and `.site-footer` for clarity and reusability.
 
-The assignment required using different CSS color formats:
-
-- **Keyword color** (`white`) for h1
-- **Hexcode** (`#f5fcff`) for h2
-- **RGBA** (`rgba(245, 252, 255, 0.15)`) for transparent blockquote background
-- **HSL** (`hsl(242 72.4% 17.9%)`) for list item text
-
-#### Responsive Grid Layout
-
-I implemented a mobile-first responsive design using CSS Grid:
-
-- **Mobile:** Single column, vertical stacking
-- **Tablet (768px+):** Two-column grid with strategic placement
-- **Desktop (1024px+):** Newspaper-style layout with sidebar
-- **Large Desktop (1440px+):** Scaled typography and increased max-width
-
-#### CSS Organization & Best Practices
-
-To improve maintainability, I implemented:
-
-- **CSS Variables** for colors, fonts, spacing, and borders
-- **Section comments** for clear code organization
-- **Combined selectors** to reduce duplication
-- **Semantic class names** (`.site-header`, `.news-grid`, `.site-footer`)
-
-#### Accessibility Enhancements
-
-I enhanced accessibility with comprehensive ARIA implementation:
-
-- **Landmark roles:** `role="banner"`, `role="main"`, `role="complementary"`, `role="contentinfo"`
-- **Article labeling:** Connected articles to headlines using `aria-labelledby`
-- **Descriptive labels:** Added `aria-label` to main content and quote box
-- **Security:** Added `rel="noopener"` to external link
+Finally, I enhanced the page's accessibility with comprehensive ARIA implementation. Landmark roles including `role="banner"`, `role="main"`, `role="complementary"`, and `role="contentinfo"` help screen reader users navigate quickly between sections. Each article connects to its headline using `aria-labelledby`, so screen readers announce the headline when users enter an article. Descriptive labels on the main content area and quote box provide additional context, and I added `rel="noopener"` to the external Cat Ipsum link for security best practices.
 
 ### Credits
 
