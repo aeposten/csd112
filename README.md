@@ -45,29 +45,29 @@ This assignment focused on the structural foundation of the web. I practiced usi
 <details>
 <summary>Click to view full requirements</summary>
 
-- `doctype` for HTML5  
-- `html`, `head`, and `body` tags  
-- UTF-8 `meta` tag  
-- `title` (Name – Assignment 01)  
-- **Semantic elements:** `header`, `nav`, `main`, `section` or `article`, `aside`, `footer`  
-- At least two different heading elements  
-- Two paragraphs  
-- One preformatted paragraph (`pre`)  
-- One quote or blockquote with citation  
-- Two list styles (ordered and unordered)  
-- One `address`  
-- Horizontal rule (`hr`)  
-- Line break (`br`)  
-- Comment with name in the `head`  
-- Four symbols or entities  
-- One HTML code snippet  
-- One `sup` and one `sub`  
+- `doctype` for HTML5
+- `html`, `head`, and `body` tags
+- UTF-8 `meta` tag
+- `title` (Name – Assignment 01)
+- **Semantic elements:** `header`, `nav`, `main`, `section` or `article`, `aside`, `footer`
+- At least two different heading elements
+- Two paragraphs
+- One preformatted paragraph (`pre`)
+- One quote or blockquote with citation
+- Two list styles (ordered and unordered)
+- One `address`
+- Horizontal rule (`hr`)
+- Line break (`br`)
+- Comment with name in the `head`
+- Four symbols or entities
+- One HTML code snippet
+- One `sup` and one `sub`
 
 </details>
 
 ### My Submission: Favorite Adventure Time Wizards
 
-For this assignment, I created a page dedicated to the wizards of the *Adventure Time* universe. Semantic sections were used to group content logically and meet all required HTML elements.
+For this assignment, I created a page dedicated to the wizards of the _Adventure Time_ universe. Semantic sections were used to group content logically and meet all required HTML elements.
 
 #### "Magic Toggle"
 
@@ -79,7 +79,7 @@ The color palette was generated using [Randoma11y](https://randoma11y.com/) to e
 
 ### Deployed Page
 
-https://aeposten.github.io/csd112/assignments/assignment-1/
+[Assignment 1 - Favorite Adventure Time Wizards](https://aeposten.github.io/csd112/assignments/assignment-1/)
 
 ---
 
@@ -138,7 +138,7 @@ I structured the page using semantic landmarks (`header`, `main`, `article`, `se
 
 ### Deployed Page
 
-https://aeposten.github.io/csd112/assignments/assignment-2/
+[Assignment 2](https://aeposten.github.io/csd112/assignments/assignment-2/)
 
 ---
 
@@ -193,7 +193,8 @@ The second screenshot demonstrates responsive behavior, where ingredient columns
 
 For this assignment, I styled my favorite Chocolate Chip Cookie recipe, [Broma Bakery's– Best Chocolate Chip Cookies](https://bromabakery.com/best-chocolate-chip-cookies/). I knew from reading the assignment description that I wanted to style the page to look like a recipe card. Initially, I thought I'd model it after a classic index card with blue lines, but after doing a search for "Recipe Cards" I found [Papier's – Double Cherry Recipe Card](https://www.papier.com/us/double-cherry-53673) and decided to use it as the model for my design.
 
-I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom organization, and code comments. I continued my commitment to accessibility with aria labeling and challenged myself by adding responsive styling. 
+I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom organization, and code comments. I continued my commitment to accessibility with aria labeling and challenged myself by adding responsive styling.
+
 ### Credits
 
 - **Recipe source:**  
@@ -202,10 +203,9 @@ I tried to improve my CSS by eliminating repetitive selectors, top-to-bottom org
 - **Recipe card design inspiration:**  
   [Papier – Double Cherry Recipe Card](https://www.papier.com/us/double-cherry-53673)
 
-
 ### Deployed Page
 
-https://aeposten.github.io/csd112/assignments/assignment-3/
+[Assignment 3 - Chocolate Chip Cookie Recipe](https://aeposten.github.io/csd112/assignments/assignment-3/)
 
 ---
 
@@ -219,12 +219,12 @@ This assignment focused on advanced CSS typography and color theory. I created a
 
 **Screenshots:**
 <br>
-<!-- Placeholder for mobile screenshot -->
+
 <img
   src="assignments/assignment-4/assets/assignment-04-screenshot.png"
   width="400"
   alt="Screenshot of The Daily Feline newspaper layout on mobile showing stacked article layout.">
-<!-- Placeholder for desktop screenshot -->
+
 <img
   src="assignments/assignment-4/assets/assignment-04-screenshot2.png"
   width="400"
@@ -243,6 +243,7 @@ This assignment focused on advanced CSS typography and color theory. I created a
 <summary>Click to view full requirements</summary>
 
 **HTML Requirements:**
+
 - Properly structured semantic HTML document
 - At least 2 different heading levels
 - At least 3 paragraphs
@@ -250,6 +251,7 @@ This assignment focused on advanced CSS typography and color theory. I created a
 - At least one list type with minimum 3 items
 
 **CSS Styling - Typography:**
+
 - Change paragraphs to a sans-serif font
 - Change headings to 2 different fonts using Google or Adobe fonts
 - Change blockquote to a local font using `@font-face` rule
@@ -263,12 +265,14 @@ This assignment focused on advanced CSS typography and color theory. I created a
   - `line-height`
 
 **CSS Styling - Color:**
+
 - Change heading level one using a keyword color
 - Change heading level two using a hexcode
 - Apply slightly transparent background to blockquote using RGBA
 - Change color of list items using HSL or HSLA
 
 **Additional Requirements:**
+
 - Internal CSS (using `<style>` tag) OR external stylesheet
 - Mobile responsive design
 
@@ -280,7 +284,7 @@ For this assignment, I created "The Daily Feline," a newspaper-inspired page fea
 
 The typography implementation showcases a carefully curated font stack using imported Google fonts and a local font implemented via the `@font-face` rule to meet the assignment requirement.
 
-The assignment required exploring different CSS color formats, which I applied strategically throughout the design. 
+The assignment required exploring different CSS color formats, which I applied strategically throughout the design.
 
 I implemented a responsive design using CSS Grid that adapts across screen sizes. On mobile devices, all content stacks vertically in a single column for easy reading. At the tablet breakpoint (768px and up), the layout transitions to a two-column grid . The desktop layout (1024px and up) adopts a true newspaper-style design with a sidebar, placing the quote box alongside the main articles. For large desktop screens (1440px and up), typography scales up and the maximum width increases to take advantage of the additional space.
 
@@ -295,4 +299,4 @@ Finally, I enhanced the page's accessibility with comprehensive ARIA implementat
 
 ### Deployed Page
 
-https://aeposten.github.io/csd112/assignments/assignment-4/
+[Assignment 4 - The Daily Feline](https://aeposten.github.io/csd112/assignments/assignment-4/)
