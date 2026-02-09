@@ -1,0 +1,101 @@
+/* Imported Google font */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+
+/* Local Fonts */
+@font-face {
+  font-family: FrankRuhlLibre;
+  src: url("fonts/FrankRuhlLibre-VariableFont_wght.ttf");
+}
+
+/* 62.5% Rule
+   This sets the root to 10px so REMs work on a base-10 scale.
+   1rem = 10px, 1.6rem = 16px, 2.4rem = 24px, etc. */
+:root {
+  font-size: 62.5%; /* sets root to 10px */
+}
+
+body {
+  font-size: 1.6rem; /* resets body text to ~16px */
+}
+
+
+/* Heading Styles */
+
+h1 {
+  font-size: 4.0rem;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 2.4rem;
+}
+
+
+/* Color Styline */
+
+div.color-block {
+  height: 50px;
+  width: 100%;
+  background-color: lightgray;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Keyword color */
+#keyword {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+/* Hex code color */
+#hex {
+  background-color: #4682b4;
+  color: white;
+}
+
+/* RGBA color (with transparency) */
+#rgb {
+  background-color: rgba(35, 105, 50, 0.8);
+  color: white;
+  margin-top: -25px;
+}
+
+/* HSLA color (with transparency) */
+#hsl {
+  background-color: hsla(255, 75%, 35%, 0.3);
+  color: hsl(0, 0%, 100%);
+  margin-top: -25px;
+}
+
+
+/* Font Family Styles */
+
+/* Generic font families applied to list items */
+#serif {
+  font-family: "Fraunces", Times, serif;
+}
+
+#sans-serif {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#monospace {
+  font-family: monospace;
+}
+
+#cursive {
+  font-family: "Italianno", cursive;
+}
+
+/* Locally hosted font used here as highest priority */
+#fantasy {
+  font-family: FrankRuhlLibre, Copperplate, fantasy;
+}
+
+
+p.test {
+  text-align: left;        /* default; left-aligned is best for readability */
+  text-transform: inherit; /* keeps text as typed; try uppercase, lowercase */
+  line-height: 2.2rem;     /* comfortable spacing between lines */
+  font-style: normal;      /* try italic, oblique */
+}
