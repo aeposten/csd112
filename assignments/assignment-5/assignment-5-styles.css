@@ -16,4 +16,59 @@ body {
   -webkit-font-smoothing: antialiased;
   text-wrap: pretty;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading */
+h1 {
+  visibility: hidden;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+thead th {
+  background-color: #a6c9ec;
+  padding: 8px 12px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+thead td {
+  border: 1px solid #000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Table title cell */
+thead tr:first-child th {
+  background-color: #215c98;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+/* Body Styles */
+tbody th {
+  background-color: #a6c9ec;
+  text-align: left;
+  padding: 4px 6px;
+  border: 1px solid #000;
+  font-weight: bold;
+}
+
+tbody td {
+  text-align: center;
+  padding: 4px 6px;
+  border: 1px solid #000;
+}
+
+/* Footer Styles */
+tfoot td {
+  background-color: #f7c7ac;
+  padding: 15px;
+  border: 1px solid #000;
 }
