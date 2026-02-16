@@ -51,9 +51,10 @@ h1 {
 table {
   border-collapse: collapse;
   margin: 0 auto;
+  width: fit-content;
 }
 
-/* Visually hidden but available to screen readers */
+/* For Screen Readers */
 caption {
   position: absolute;
   width: 1px;
