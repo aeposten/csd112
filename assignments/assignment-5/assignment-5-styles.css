@@ -1,11 +1,17 @@
 /* Variables */
 :root {
+
+  /* Colors */
   --color-header-dark: #215c98;
   --color-header-light: #a6c9ec;
   --color-footer: #f7c7ac;
   --color-border: #000;
   --color-white: #ffffff;
+
+  /* Fonts */
   --font-family: Arial, Helvetica, sans-serif;
+
+  /* Borders */
   --cell-padding: 4px 6px;
   --cell-padding-lg: 8px 12px;
 }
