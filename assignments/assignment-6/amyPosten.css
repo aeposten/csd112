@@ -39,6 +39,7 @@ body {
   text-wrap: pretty;
   min-height: 100vh;
   font-family: var(--font-family);
+  font-size: 16px;
   background-color: var(--page-bg);
   color: var(--color-white);
 }
@@ -89,6 +90,7 @@ header h1 {
   color: var(--color-white);
   font-size: 2rem;
   text-align: center;
+  margin: 0;
 }
 
 /* Section Styles */
@@ -96,6 +98,7 @@ section {
   position: relative;
   margin: 40px;
   padding: 20px;
+  padding-bottom: 60px;
   overflow: hidden;
 }
 
@@ -106,7 +109,10 @@ section img {
 }
 
 section p {
+  position: relative;
   margin: 0;
+  font-size: 1rem;
+  z-index: 1;
 }
 
 section::after {
@@ -126,11 +132,31 @@ div.decoration {
   z-index: 0;
 }
 
-section p {
-  position: relative;
-  z-index: 1;
+/* Cat Stories Styles */
+article h2 {
+  text-align: center;
 }
 
-section {
-  padding-bottom: 60px;
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 16px;
+  margin: 0 40px 40px 40px;
+}
+
+.matrix-item {
+  background-color: var(--med-blue);
+  padding: 16px;
+  font-size: 1rem;
+}
+
+.matrix-item.col-span-2 {
+  grid-column: span 2;
+  background-color: var(--purple);
+}
+
+.matrix-item.row-span-2 {
+  grid-row: span 2;
+  background-color: var(--green);
 }
