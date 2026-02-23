@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Week 06 - Tables</title>
+    <link rel="stylesheet" href="week-6-demo-styles.css" type="text/css" />
+  </head>
+  <body>
+    <table>
+      <caption>
+        Stardew Valley Crop Growth Times
+      </caption>
+
+      <colgroup>
+        <!-- This helps make styling entire columns faster than styling independent cells -->
+        <col />
+        <!-- This is to push over from the empty column -->
+        <col span="2" class="spring" />
+        <col span="2" class="summer" />
+        <col span="2" class="fall" />
+        <col span="2" class="winter" />
+      </colgroup>
+
+      <thead>
+        <tr>
+          <th scope="col" rowspan="2">
+            <img src="assets/stardew-logo.png" alt="stardew logo" width="50" />
+          </th>
+          <th scope="col" class="spring" colspan="2">Spring Crops</th>
+          <th scope="col" class="summer" colspan="2">Summer Crops</th>
+          <th scope="col" class="fall" colspan="2">Fall Crops</th>
+          <th scope="col" class="winter" colspan="2">Winter Crops</th>
+        </tr>
+        <tr>
+          <th scope="col">Strawberry</th>
+          <th scope="col">Potato</th>
+          <th scope="col">Starfruit</th>
+          <th scope="col">Blueberry</th>
+          <th scope="col">Artichoke</th>
+          <th scope="col">Beet</th>
+          <th scope="col">Ancient Fruit</th>
+          <th scope="col">Cactus Fruit</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th scope="row">Stage 1</th>
+          <td>1</td>
+          <td>2</td>
+          <td>1</td>
+          <td>2</td>
+          <td>1</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <th scope="row">Stage 2</th>
+          <td>1</td>
+          <td>1</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>7</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <th scope="row">Stage 3</th>
+          <td>2</td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>1</td>
+          <td>2</td>
+          <td>7</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th scope="row">Stage 4</th>
+          <td>2</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>2</td>
+          <td>2</td>
+          <td>7</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th scope="row">Stage 5</th>
+          <td>2</td>
+          <td>1</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>NA</td>
+          <td>5</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th scope="row">Total Time</th>
+          <td>8</td>
+          <td>7</td>
+          <td>16</td>
+          <td>7</td>
+          <td>7</td>
+          <td>7</td>
+          <td>28</td>
+          <td>12</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

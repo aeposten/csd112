@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+th,
+td,
+tr {
+  border: solid 1px black;
+  padding: 5px;
+}
+
+caption {
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: darkslateblue;
+  color: white;
+  font-size: 25px;
+}
+
+th.spring,
+th.summer,
+th.fall,
+th.winter,
+tfoot th {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.spring {
+  background-color: paleturquoise;
+}
+
+.summer {
+  background-color: papayawhip;
+}
+
+.fall {
+  background-color: lightsalmon;
+}
+
+.winter {
+  background-color: lightslategrey;
+}
+
+tfoot {
+  background-color: palevioletred;
+  color: white;
+  border-top: solid 5px black;
+}
+
+thead {
+  border-bottom: solid 5px black;
+}
