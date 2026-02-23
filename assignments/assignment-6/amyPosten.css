@@ -10,13 +10,15 @@
   --dk-grey: #686868;
   --lt-grey: #9f9f9f;
   --page-bg: #1a1a1a;
-  --color-white: #ffffff;
 
   /* Fonts */
   --font-family: Arial, Helvetica, sans-serif;
 
   /* Spacing */
   --nav-padding: 16px 20px;
+  --gap: 1rem;
+  --section-margin: 2.5rem;
+  --border-radius: 0.25rem;
 }
 
 /* Resets and Base Styles */
@@ -38,22 +40,21 @@ body {
   text-wrap: pretty;
   min-height: 100vh;
   font-family: var(--font-family);
-  font-size: 16px;
   background-color: var(--page-bg);
-  color: var(--color-white);
+  color: white;
 }
 
 /* Nav Styles */
 nav {
   display: flex;
   justify-content: center;
-  padding: 16px;
+  padding: 1rem;
   background-color: var(--page-bg);
 }
 
 nav ul {
   display: flex;
-  gap: 12px;
+  gap: var(--gap);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -62,11 +63,11 @@ nav ul {
 nav ul li a {
   display: block;
   padding: var(--nav-padding);
-  color: var(--color-white);
+  color: white;
   text-decoration: none;
   background-color: var(--dk-blue);
   font-family: var(--font-family);
-  font-size: 1rem;
+  border-radius: var(--border-radius);
 }
 
 nav ul li.current a {
@@ -79,14 +80,14 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 400px;
+  min-height: 25rem;
   background-image: url("assets/background.jpg");
   background-size: cover;
   background-position: center;
 }
 
 header h1 {
-  color: var(--color-white);
+  color: white;
   font-size: 2rem;
   text-align: center;
   margin: 0;
@@ -95,22 +96,21 @@ header h1 {
 /* Section Styles */
 section {
   position: relative;
-  margin: 40px;
-  padding: 20px;
-  padding-bottom: 60px;
+  margin: var(--section-margin);
+  padding: 1.25rem;
+  padding-bottom: 3.75rem;
   overflow: hidden;
 }
 
 section img {
   float: left;
-  margin-right: 30px;
-  margin-bottom: 10px;
+  margin-right: 1.875rem;
+  margin-bottom: 0.625rem;
 }
 
 section p {
   position: relative;
   margin: 0;
-  font-size: 1rem;
   z-index: 1;
 }
 
@@ -123,8 +123,8 @@ section::after {
 /* Positioned Decoration Square */
 div.decoration {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 10rem;
+  height: 10rem;
   background-color: var(--pink);
   bottom: 40%;
   left: 40%;
@@ -140,14 +140,14 @@ article h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
-  gap: 16px;
-  margin: 0 40px 40px 40px;
+  gap: var(--gap);
+  margin: 0 var(--section-margin) var(--section-margin) var(--section-margin);
 }
 
 .matrix-item {
   background-color: var(--med-blue);
-  padding: 16px;
-  font-size: 1rem;
+  padding: 1rem;
+  border-radius: var(--border-radius);
 }
 
 .matrix-item.col-span-2 {
@@ -163,8 +163,8 @@ article h2 {
 /* Cat Breeds Styles */
 #art-2 {
   background-color: var(--dk-grey);
-  margin: 40px;
-  padding: 40px;
+  margin: var(--section-margin);
+  padding: var(--section-margin);
 }
 
 .matrix-2 {
@@ -172,15 +172,14 @@ article h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 16px;
-  margin-top: 24px;
+  gap: var(--gap);
+  margin-top: 1.5rem;
 }
 
 .matrix-2-item {
   background-color: var(--lt-grey);
-  color: var(--color-white);
-  padding: 16px 32px;
-  font-size: 1rem;
+  color: white;
+  padding: 1rem 2rem;
   text-align: center;
 }
 
@@ -188,12 +187,11 @@ article h2 {
 footer {
   background-color: var(--dk-blue);
   text-align: center;
-  padding: 16px;
-  margin-top: 40px;
+  padding: 1rem;
+  margin-top: var(--section-margin);
 }
 
 footer p {
   margin: 0;
-  color: var(--color-white);
-  font-size: 1rem;
+  color: white;
 }
