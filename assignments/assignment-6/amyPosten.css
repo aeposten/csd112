@@ -72,3 +72,21 @@ nav ul li a {
 nav ul li.current a {
   background-color: var(--fuschia);
 }
+
+/* Header / Hero Styles */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  color: var(--color-white);
+  font-size: 2rem;
+  text-align: center;
+}
