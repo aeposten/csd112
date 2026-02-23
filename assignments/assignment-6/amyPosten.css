@@ -90,3 +90,47 @@ header h1 {
   font-size: 2rem;
   text-align: center;
 }
+
+/* Section Styles */
+section {
+  position: relative;
+  margin: 40px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+section img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin: 0;
+}
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Positioned Decoration Square */
+div.decoration {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: var(--pink);
+  bottom: 40%;
+  left: 40%;
+  z-index: 0;
+}
+
+section p {
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  padding-bottom: 60px;
+}
