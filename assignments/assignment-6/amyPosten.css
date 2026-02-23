@@ -1,6 +1,5 @@
 /* Variables */
 :root {
-
   /* Colors */
   --dk-blue: #193987;
   --med-blue: #7c96b4;
@@ -159,4 +158,42 @@ article h2 {
 .matrix-item.row-span-2 {
   grid-row: span 2;
   background-color: var(--green);
+}
+
+/* Cat Breeds Styles */
+#art-2 {
+  background-color: var(--dk-grey);
+  margin: 40px;
+  padding: 40px;
+}
+
+.matrix-2 {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.matrix-2-item {
+  background-color: var(--lt-grey);
+  color: var(--color-white);
+  padding: 16px 32px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--dk-blue);
+  text-align: center;
+  padding: 16px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  color: var(--color-white);
+  font-size: 1rem;
 }
