@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 820" font-family="Georgia, serif">
+
+  <!-- ===== BACKGROUND ===== -->
+  <rect width="1100" height="820" fill="#f5f4f0"/>
+
+  <!-- ===== PAGE LABELS ===== -->
+  <text x="275" y="32" font-size="13" fill="#888" letter-spacing="3" text-anchor="middle" font-family="monospace">PAGE 1 — LANDING / HOME</text>
+  <text x="815" y="32" font-size="13" fill="#888" letter-spacing="3" text-anchor="middle" font-family="monospace">PAGE 2 — GALLERY</text>
+
+  <!-- ===== DIVIDER ===== -->
+  <line x1="545" y1="20" x2="545" y2="760" stroke="#ccc" stroke-width="1" stroke-dasharray="5,5"/>
+
+
+  <!-- ==================== PAGE 1 ==================== -->
+  <rect x="30" y="50" width="490" height="680" rx="2" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+
+  <!-- TOP ROW: 3 equal cells -->
+  <rect x="30" y="50" width="162" height="195" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="30" y1="50" x2="192" y2="245" stroke="#ccc" stroke-width="1"/>
+  <line x1="192" y1="50" x2="30" y2="245" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="192" y="50" width="163" height="195" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="192" y1="50" x2="355" y2="245" stroke="#ccc" stroke-width="1"/>
+  <line x1="355" y1="50" x2="192" y2="245" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="355" y="50" width="165" height="195" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="355" y1="50" x2="520" y2="245" stroke="#ccc" stroke-width="1"/>
+  <line x1="520" y1="50" x2="355" y2="245" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Hover state annotation -->
+  <rect x="92" y="222" width="100" height="20" fill="#333" opacity="0.75" rx="2"/>
+  <text x="142" y="236" font-size="11" fill="#fff" text-anchor="middle" font-family="monospace">[ Name ]</text>
+  <text x="35" y="260" font-size="9.5" fill="#999" font-family="monospace" font-style="italic">↑ hover: name label bottom-right of cell</text>
+
+  <!-- MIDDLE ROW -->
+  <rect x="30" y="245" width="162" height="290" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="30" y1="245" x2="192" y2="535" stroke="#ccc" stroke-width="1"/>
+  <line x1="192" y1="245" x2="30" y2="535" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="192" y="245" width="163" height="290" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="192" y1="245" x2="355" y2="535" stroke="#ccc" stroke-width="1"/>
+  <line x1="355" y1="245" x2="192" y2="535" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="355" y="245" width="165" height="145" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="355" y1="245" x2="520" y2="390" stroke="#ccc" stroke-width="1"/>
+  <line x1="520" y1="245" x2="355" y2="390" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Title cell -->
+  <rect x="355" y="390" width="165" height="145" fill="#fff" stroke="#aaa" stroke-width="1.5"/>
+  <text x="437" y="445" font-size="14" fill="#333" text-anchor="middle" font-family="Georgia, serif" font-style="italic">Mullins</text>
+  <text x="437" y="465" font-size="14" fill="#333" text-anchor="middle" font-family="Georgia, serif" font-style="italic">Family</text>
+  <text x="437" y="485" font-size="14" fill="#333" text-anchor="middle" font-family="Georgia, serif" font-style="italic">Album</text>
+
+  <!-- BOTTOM ROW: 2 cells -->
+  <rect x="30" y="535" width="245" height="195" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="30" y1="535" x2="275" y2="730" stroke="#ccc" stroke-width="1"/>
+  <line x1="275" y1="535" x2="30" y2="730" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="275" y="535" width="245" height="195" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="275" y1="535" x2="520" y2="730" stroke="#ccc" stroke-width="1"/>
+  <line x1="520" y1="535" x2="275" y2="730" stroke="#ccc" stroke-width="1"/>
+
+  <text x="35" y="748" font-size="9.5" fill="#999" font-family="monospace">Each cell = clickable → navigates to Gallery page</text>
+
+
+  <!-- ==================== PAGE 2 ==================== -->
+  <rect x="560" y="50" width="510" height="680" rx="2" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+
+  <!-- Left large photo cell: x=560 y=50 w=255 h=340 -->
+  <rect x="560" y="50" width="255" height="340" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="560" y1="50" x2="815" y2="390" stroke="#ccc" stroke-width="1"/>
+  <line x1="815" y1="50" x2="560" y2="390" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Right top cell: x=815 y=50 w=255 h=340 -->
+  <rect x="815" y="50" width="255" height="340" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="815" y1="50" x2="1070" y2="390" stroke="#ccc" stroke-width="1"/>
+  <line x1="1070" y1="50" x2="815" y2="390" stroke="#ccc" stroke-width="1"/>
+
+  <!-- QUOTE OVERLAY -->
+  <rect x="575" y="90" width="225" height="220" fill="#444" opacity="0.82" rx="3"/>
+  <text x="687" y="130" font-size="11" fill="#ddd" text-anchor="middle" font-family="monospace">" Quote or biographical</text>
+  <text x="687" y="150" font-size="11" fill="#ddd" text-anchor="middle" font-family="monospace">detail goes here "</text>
+  <line x1="610" y1="170" x2="765" y2="170" stroke="#666" stroke-width="0.8"/>
+
+  <!-- Name label -->
+  <text x="942" y="360" font-size="26" fill="#555" text-anchor="middle" font-family="Georgia, serif" font-style="italic">Helmi</text>
+
+  <!-- Nav arrows -->
+  <text x="572" y="228" font-size="28" fill="#aaa" text-anchor="middle" font-family="monospace">‹</text>
+  <text x="1062" y="228" font-size="28" fill="#aaa" text-anchor="middle" font-family="monospace">›</text>
+
+  <!-- Bottom grid row 1 -->
+  <rect x="560" y="390" width="170" height="170" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="560" y1="390" x2="730" y2="560" stroke="#ccc" stroke-width="1"/>
+  <line x1="730" y1="390" x2="560" y2="560" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="730" y="390" width="170" height="170" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="730" y1="390" x2="900" y2="560" stroke="#ccc" stroke-width="1"/>
+  <line x1="900" y1="390" x2="730" y2="560" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="900" y="390" width="170" height="170" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="900" y1="390" x2="1070" y2="560" stroke="#ccc" stroke-width="1"/>
+  <line x1="1070" y1="390" x2="900" y2="560" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Bottom grid row 2 -->
+  <rect x="560" y="560" width="170" height="170" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="560" y1="560" x2="730" y2="730" stroke="#ccc" stroke-width="1"/>
+  <line x1="730" y1="560" x2="560" y2="730" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="730" y="560" width="170" height="170" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="730" y1="560" x2="900" y2="730" stroke="#ccc" stroke-width="1"/>
+  <line x1="900" y1="560" x2="730" y2="730" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="900" y="560" width="170" height="170" fill="#e8e6e0" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="900" y1="560" x2="1070" y2="730" stroke="#ccc" stroke-width="1"/>
+  <line x1="1070" y1="560" x2="900" y2="730" stroke="#ccc" stroke-width="1"/>
+
+  <text x="565" y="748" font-size="9.5" fill="#999" font-family="monospace">Photo grid — additional photos / memories</text>
+
+
+  <!-- ===== LEGEND (spaced out below everything) ===== -->
+  <rect x="30"  y="775" width="14" height="12" fill="#e8e6e0" stroke="#aaa" stroke-width="1"/>
+  <text x="50"  y="786" font-size="10" fill="#666" font-family="monospace">Photo placeholder</text>
+
+  <rect x="220" y="775" width="14" height="12" fill="#fff" stroke="#aaa" stroke-width="1"/>
+  <text x="240" y="786" font-size="10" fill="#666" font-family="monospace">Text / title cell</text>
+
+  <rect x="390" y="775" width="14" height="12" fill="#444" opacity="0.82"/>
+  <text x="410" y="786" font-size="10" fill="#666" font-family="monospace">Bio / quote overlay</text>
+
+  <rect x="590" y="775" width="14" height="12" fill="#333" opacity="0.75"/>
+  <text x="610" y="786" font-size="10" fill="#666" font-family="monospace">Name - On Hover</text>
+
+</svg>
