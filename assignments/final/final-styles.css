@@ -349,7 +349,127 @@ a {
   color: var(--camel);
 }
 
-/* Animations */
+/* About / Contact Section (Amy's page) */
+.about-section {
+  padding: 3rem 2rem;
+  background-color: var(--almond-cream);
+}
+
+.about-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-heading {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--ebony);
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--ebony);
+  margin-bottom: 1.5rem;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: var(--ebony);
+  color: var(--almond-cream);
+  font-size: 1.1rem;
+  border-radius: 50%;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.social-links a:hover {
+  background-color: var(--coffee-bean);
+  color: var(--almond-cream);
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form-field label {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--coffee-bean);
+}
+
+.form-field input,
+.form-field textarea {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 300;
+  padding: 0.6rem 0.8rem;
+  background-color: #fff;
+  color: var(--ebony);
+  border: 1px solid var(--camel);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  border-color: var(--coffee-bean);
+}
+
+.form-field textarea {
+  resize: vertical;
+}
+
+.form-submit {
+  align-self: flex-start;
+  padding: 0.65rem 1.8rem;
+  background-color: var(--ebony);
+  color: var(--almond-cream);
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-submit:hover {
+  background-color: var(--coffee-bean);
+}
+
+
 @keyframes fadeUp {
   from {
     opacity: 0;
