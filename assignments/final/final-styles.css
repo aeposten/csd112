@@ -434,10 +434,18 @@ a {
   font-size: 0.95rem;
   font-weight: 300;
   padding: 0.6rem 0.8rem;
+  width: 100%;
   background-color: #fff;
   color: var(--ebony);
   border: 1px solid var(--camel);
+  border-radius: 0;
   outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0;
+  box-sizing: border-box;
   transition: border-color 0.2s ease;
 }
 
