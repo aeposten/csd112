@@ -3,105 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Irenie Bean, March 28. Photos of Irene Mullins."
+    />
     <title>Irene &mdash; Mullins Family Album</title>
-    <link rel="stylesheet" href="../../final-styles.css" />
+    <link rel="stylesheet" href="../../scripts/final-styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <span class="site-title">
+    <header class="site-header" role="banner">
+      <p class="site-title">
         <a href="../../index.html">Mullins Family Album</a>
-      </span>
-      <nav>
+      </p>
+      <nav aria-label="Site navigation">
         <ul class="site-nav">
           <li><a href="../amy/amy.html">Amy</a></li>
           <li><a href="../galen/galen.html">Galen</a></li>
           <li><a href="../helmi/helmi.html">Helmi</a></li>
-          <li><a href="../irene/irene.html">Irene</a></li>
+          <li><a href="../irene/irene.html" aria-current="page">Irene</a></li>
           <li><a href="../magnus/magnus.html">Magnus</a></li>
         </ul>
       </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="member-hero">
-      <!-- Left: featured photo -->
-      <div class="hero-photo">
-        <img
-          src="irene-swing.jpeg"
-          alt="Irene smiling in a purple bucket swing at a waterfront park, wearing a pink sun hat and crocs"
-        />
-      </div>
+    <section class="member-hero irene-hero" aria-label="Featured photos">
+      <figure
+        class="hero-photo"
+        role="img"
+        aria-label="Irene smiling in a purple bucket swing at a waterfront park, wearing a pink sun hat and crocs"
+      ></figure>
 
-      <!-- Quote/bio overlay (floats over hero) -->
-      <div class="hero-overlay">
+      <aside class="hero-overlay">
         <p class="quote">Irenie Bean</p>
-        <hr class="divider" />
+        <hr class="divider" aria-hidden="true" />
         <p class="bio-detail">March 28</p>
-      </div>
+      </aside>
 
-      <!-- Right: second photo with name overlay -->
-      <div class="hero-right">
+      <figure class="hero-right">
         <img
-          src="irene-bird.jpeg"
+          src="assets/irene-bird.jpeg"
           alt="Irene watching a starling perched on a railing at an outdoor rooftop dining area, with Puget Sound in the background"
         />
         <h1 class="member-name">Irene</h1>
-      </div>
+      </figure>
     </section>
 
     <!-- Prev / Next Navigation -->
-    <nav class="member-nav">
+    <nav class="member-nav" aria-label="Navigate between family members">
       <a href="../helmi/helmi.html">&larr; Helmi</a>
       <a href="../../index.html" class="nav-home">&#8962; All Members</a>
       <a href="../magnus/magnus.html">Magnus &rarr;</a>
     </nav>
 
     <!-- Photo Grid -->
-    <section class="member-grid">
-      <div class="member-grid-cell">
+    <section class="member-grid" aria-label="Photo gallery">
+      <figure class="member-grid-cell">
         <img
-          src="irene-nicu.jpeg"
+          src="assets/irene-nicu.jpeg"
           alt="Newborn Irene in the NICU with a feeding tube taped to her nose, fist raised near her cheek"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="irene-carseat.jpeg"
+          src="assets/irene-carseat.jpeg"
           alt="Irene laughing with her tongue out in a teal UPPAbaby car seat"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="irene-cart.jpeg"
+          src="assets/irene-cart.jpeg"
           alt="Irene sitting in a Metropolitan Market shopping cart wearing a bright pink fleece, reaching out toward the camera"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="irene-snow.jpeg"
+          src="assets/irene-snow.jpeg"
           alt="Irene sitting in a wooden sled in a snowy forest, wearing a colorful geometric snowsuit and mittens"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="irene-hat.jpeg"
+          src="assets/irene-hat.jpeg"
           alt="Irene wearing a horse-themed party hat, standing at a table and smiling over her shoulder"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="irene-ballpit.jpeg"
+          src="assets/irene-ballpit.jpeg"
           alt="Irene sitting in a ball pit holding two black balls up triumphantly, surrounded by orange, blue, and black balls"
         />
-      </div>
+      </figure>
     </section>
 
-    <footer class="site-footer">
+    <footer class="site-footer" role="contentinfo">
       &copy; Mullins Family Album | Created by Amy Posten
     </footer>
   </body>

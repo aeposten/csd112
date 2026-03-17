@@ -1,132 +1,199 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amy &mdash; Mullins Family Album</title>
-  <link rel="stylesheet" href="../../final-styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mom, September 30. Photos of Amy Mullins, with contact form."
+    />
+    <title>Amy &mdash; Mullins Family Album</title>
+    <link rel="stylesheet" href="../../scripts/final-styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <p class="site-title">
+        <a href="../../index.html">Mullins Family Album</a>
+      </p>
+      <nav aria-label="Site navigation">
+        <ul class="site-nav">
+          <li><a href="../amy/amy.html" aria-current="page">Amy</a></li>
+          <li><a href="../galen/galen.html">Galen</a></li>
+          <li><a href="../helmi/helmi.html">Helmi</a></li>
+          <li><a href="../irene/irene.html">Irene</a></li>
+          <li><a href="../magnus/magnus.html">Magnus</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <header class="site-header">
-    <span class="site-title">
-      <a href="../../index.html">Mullins Family Album</a>
-    </span>
-    <nav>
-      <ul class="site-nav">
-        <li><a href="../amy/amy.html">Amy</a></li>
-        <li><a href="../galen/galen.html">Galen</a></li>
-        <li><a href="../helmi/helmi.html">Helmi</a></li>
-        <li><a href="../irene/irene.html">Irene</a></li>
-        <li><a href="../magnus/magnus.html">Magnus</a></li>
-      </ul>
+    <!-- Hero Section -->
+    <section class="member-hero" aria-label="Featured photos">
+      <figure class="hero-photo">
+        <img
+          src="assets/amy-baby-helmi.jpeg"
+          alt="Amy smiling outdoors while carrying a sleeping newborn Helmi in a baby carrier, black and white photo"
+        />
+      </figure>
+
+      <aside class="hero-overlay">
+        <p class="quote">Mom</p>
+        <hr class="divider" aria-hidden="true" />
+        <p class="bio-detail">September 30</p>
+      </aside>
+
+      <figure class="hero-right">
+        <img
+          src="assets/amy-bowser.jpeg"
+          alt="Amy kneeling next to Bowser the boxer dog in front of a blue backdrop during a photo shoot"
+        />
+        <h1 class="member-name">Amy</h1>
+      </figure>
+    </section>
+
+    <!-- Prev / Next Navigation -->
+    <nav class="member-nav" aria-label="Navigate between family members">
+      <a href="../galen/galen.html">&larr; Galen</a>
+      <a href="../../index.html" class="nav-home">&#8962; All Members</a>
+      <a href="../helmi/helmi.html">Helmi &rarr;</a>
     </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="member-hero">
+    <!-- Photo Grid -->
+    <section class="member-grid" aria-label="Photo gallery">
+      <figure class="member-grid-cell">
+        <img
+          src="assets/amy-friends.jpeg"
+          alt="Amy smiling with two friends outdoors in the evening"
+        />
+      </figure>
 
-    <div class="hero-photo">
-      <img src="amy-baby-helmi.jpeg" alt="Amy smiling outdoors while carrying a sleeping newborn Helmi in a baby carrier, black and white photo" />
-    </div>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/amy-galen-japan.jpeg"
+          alt="Amy and Galen smiling at a sushi bar in Japan, with a chef giving a peace sign in the background"
+        />
+      </figure>
 
-    <div class="hero-overlay">
-      <p class="quote">Mom</p>
-      <hr class="divider" />
-      <p class="bio-detail">September 30</p>
-    </div>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/amy-girls.jpeg"
+          alt="Amy sitting on a bench bottle-feeding newborn Irene while Helmi stands beside her in a blue graduation cap and gown"
+        />
+      </figure>
 
-    <div class="hero-right">
-      <img src="amy-bowser.jpeg" alt="Amy kneeling next to Bowser the boxer dog in front of a blue backdrop during a photo shoot" />
-      <h1 class="member-name">Amy</h1>
-    </div>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/amy-headshot.jpeg"
+          alt="Black and white close-up headshot of Amy wearing glasses"
+        />
+      </figure>
 
-  </section>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/amy-heather.jpeg"
+          alt="Amy and a friend each holding a giant frosted cupcake and laughing"
+        />
+      </figure>
 
-  <!-- Prev / Next Navigation -->
-  <nav class="member-nav">
-    <a href="../galen/galen.html">&larr; Galen</a>
-    <a href="../../index.html" class="nav-home">&#8962; All Members</a>
-    <a href="../helmi/helmi.html">Helmi &rarr;</a>
-  </nav>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/amy-kitten.jpeg"
+          alt="Amy grinning with a tiny black kitten perched on her shoulder in a veterinary office"
+        />
+      </figure>
+    </section>
 
-  <!-- Photo Grid -->
-  <section class="member-grid">
+    <!-- About / Contact Section -->
+    <section class="about-section" aria-label="About Amy and contact">
+      <div class="about-contact">
+        <article class="about-text">
+          <h2 class="about-heading">About Me</h2>
+          <p>
+            Mom, student, and maker of things. Currently studying Computer
+            Science at Lake Washington Institute of Technology.
+          </p>
+          <div class="social-links">
+            <a href="mailto:s-amy.posten@lwtech.edu" aria-label="Email Amy">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/aeposten/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Amy on LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://github.com/aeposten/csd112"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Amy on GitHub"
+            >
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+          </div>
+        </article>
 
-    <div class="member-grid-cell">
-      <img src="amy-friends.jpeg" alt="Amy smiling with two friends outdoors in the evening" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="amy-galen-japan.jpeg" alt="Amy and Galen smiling at a sushi bar in Japan, with a chef giving a peace sign in the background" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="amy-girls.jpeg" alt="Amy sitting on a bench bottle-feeding newborn Irene while Helmi stands beside her in a blue graduation cap and gown" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="amy-headshot.jpeg" alt="Black and white close-up headshot of Amy wearing glasses" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="amy-heather.jpeg" alt="Amy and a friend each holding a giant frosted cupcake and laughing" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="amy-kitten.jpeg" alt="Amy grinning with a tiny black kitten perched on her shoulder in a veterinary office" />
-    </div>
-
-  </section>
-
-  <!-- About / Contact Section -->
-  <section class="about-section">
-
-    <div class="about-contact">
-
-      <div class="about-text">
-        <h2 class="about-heading">About Me</h2>
-        <p>Mom, student, and maker of things. Currently studying Computer Science at Lake Washington Institute of Technology.</p>
-        <div class="social-links">
-          <a href="/cdn-cgi/l/email-protection#285b054945510658475b5c4d4668445f5c4d4b40064d4c5d" aria-label="Email Amy">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/aeposten/" target="_blank" rel="noopener noreferrer" aria-label="Amy on LinkedIn">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/aeposten/csd112" target="_blank" rel="noopener noreferrer" aria-label="Amy on GitHub">
-            <i class="fa-brands fa-github"></i>
-          </a>
+        <div class="contact-form-wrap">
+          <h2 class="about-heading">Get in Touch</h2>
+          <form
+            class="contact-form"
+            aria-label="Contact form"
+            action="https://formsubmit.co/s-amy.posten@lwtech.edu"
+            method="POST"
+          >
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your message..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="form-submit">Send Message</button>
+          </form>
         </div>
       </div>
+    </section>
 
-      <div class="contact-form-wrap">
-        <h2 class="about-heading">Get in Touch</h2>
-        <form class="contact-form" action="https://formsubmit.co/s-amy.posten@lwtech.edu" method="POST">
-          <div class="form-field">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name" />
-          </div>
-          <div class="form-field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="your@email.com" />
-          </div>
-          <div class="form-field">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Subject" />
-          </div>
-          <div class="form-field">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Your message..."></textarea>
-          </div>
-          <button type="submit" class="form-submit">Send Message</button>
-        </form>
-      </div>
-
-    </div>
-
-  </section>
-
-  <footer class="site-footer">
-    &copy; Mullins Family Album | Creat
+    <footer class="site-footer" role="contentinfo">
+      &copy; Mullins Family Album | Created by Amy Posten
+    </footer>
+  </body>
+</html>

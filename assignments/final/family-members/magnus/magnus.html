@@ -3,102 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Big Dingus, December 3. Photos of Magnus the family dog."
+    />
     <title>Magnus &mdash; Mullins Family Album</title>
-    <link rel="stylesheet" href="../../final-styles.css" />
+    <link rel="stylesheet" href="../../scripts/final-styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <span class="site-title">
+    <header class="site-header" role="banner">
+      <p class="site-title">
         <a href="../../index.html">Mullins Family Album</a>
-      </span>
-      <nav>
+      </p>
+      <nav aria-label="Site navigation">
         <ul class="site-nav">
           <li><a href="../amy/amy.html">Amy</a></li>
           <li><a href="../galen/galen.html">Galen</a></li>
           <li><a href="../helmi/helmi.html">Helmi</a></li>
           <li><a href="../irene/irene.html">Irene</a></li>
-          <li><a href="../magnus/magnus.html">Magnus</a></li>
+          <li>
+            <a href="../magnus/magnus.html" aria-current="page">Magnus</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="member-hero">
-      <div class="hero-photo">
+    <section class="member-hero" aria-label="Featured photos">
+      <figure class="hero-photo">
         <img
-          src="magnus-baby.jpeg"
+          src="assets/magnus-baby.jpeg"
           alt="Overhead view of Magnus the adult boxer dog sniffing a newborn baby lying on a play mat in a striped onesie"
         />
-      </div>
+      </figure>
 
-      <div class="hero-overlay">
+      <aside class="hero-overlay">
         <p class="quote">Big Dingus</p>
-        <hr class="divider" />
+        <hr class="divider" aria-hidden="true" />
         <p class="bio-detail">December 3</p>
-      </div>
+      </aside>
 
-      <div class="hero-right">
+      <figure class="hero-right">
         <img
-          src="magnus-ball.jpeg"
+          src="assets/magnus-ball.jpeg"
           alt="Magnus the boxer dog standing outdoors proudly holding a tennis ball in his mouth"
         />
         <h1 class="member-name">Magnus</h1>
-      </div>
+      </figure>
     </section>
 
     <!-- Prev / Next Navigation -->
-    <nav class="member-nav">
+    <nav class="member-nav" aria-label="Navigate between family members">
       <a href="../irene/irene.html">&larr; Irene</a>
       <a href="../../index.html" class="nav-home">&#8962; All Members</a>
       <a href="../sisters/sisters.html">Sisters &rarr;</a>
     </nav>
 
     <!-- Photo Grid -->
-    <section class="member-grid">
-      <div class="member-grid-cell">
+    <section class="member-grid" aria-label="Photo gallery">
+      <figure class="member-grid-cell">
         <img
-          src="magnus-beach.jpeg"
+          src="assets/magnus-beach.jpeg"
           alt="Magnus the boxer dog on a leash standing on a wide sandy beach, watching a person walk along the water's edge"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="magnus-bed.jpeg"
+          src="assets/magnus-bed.jpeg"
           alt="Magnus the boxer dog curled up in a small pet bed wedged into a car seat"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="magnus-crochet.jpeg"
+          src="assets/magnus-crochet.jpeg"
           alt="A hand holding a crocheted white egg-shaped amigurumi figure next to Magnus the boxer dog's face on the couch"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="magnus-face.jpeg"
+          src="assets/magnus-face.jpeg"
           alt="Magnus the boxer dog peeking out from under a blanket with sad puppy eyes"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="magnus-puppy.jpeg"
+          src="assets/magnus-puppy.jpeg"
           alt="Magnus as a tiny puppy being cradled in two hands"
         />
-      </div>
+      </figure>
 
-      <div class="member-grid-cell">
+      <figure class="member-grid-cell">
         <img
-          src="magnus-tiny.jpeg"
+          src="assets/magnus-tiny.jpeg"
           alt="Young Magnus the boxer puppy resting his chin on a couch cushion with droopy eyes"
         />
-      </div>
+      </figure>
     </section>
 
-    <footer class="site-footer">
+    <footer class="site-footer" role="contentinfo">
       &copy; Mullins Family Album | Created by Amy Posten
     </footer>
   </body>

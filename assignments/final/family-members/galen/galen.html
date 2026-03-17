@@ -1,87 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Galen &mdash; Mullins Family Album</title>
-  <link rel="stylesheet" href="../../final-styles.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dad, May 14. Photos of Galen Mullins." />
+    <title>Galen &mdash; Mullins Family Album</title>
+    <link rel="stylesheet" href="../../scripts/final-styles.css" />
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <p class="site-title">
+        <a href="../../index.html">Mullins Family Album</a>
+      </p>
+      <nav aria-label="Site navigation">
+        <ul class="site-nav">
+          <li><a href="../amy/amy.html">Amy</a></li>
+          <li><a href="../galen/galen.html" aria-current="page">Galen</a></li>
+          <li><a href="../helmi/helmi.html">Helmi</a></li>
+          <li><a href="../irene/irene.html">Irene</a></li>
+          <li><a href="../magnus/magnus.html">Magnus</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <header class="site-header">
-    <span class="site-title">
-      <a href="../../index.html">Mullins Family Album</a>
-    </span>
-    <nav>
-      <ul class="site-nav">
-        <li><a href="../amy/amy.html">Amy</a></li>
-        <li><a href="../galen/galen.html">Galen</a></li>
-        <li><a href="../helmi/helmi.html">Helmi</a></li>
-        <li><a href="../irene/irene.html">Irene</a></li>
-        <li><a href="../magnus/magnus.html">Magnus</a></li>
-      </ul>
+    <!-- Hero Section -->
+    <section class="member-hero" aria-label="Featured photos">
+      <figure class="hero-photo">
+        <img
+          src="assets/galen-helmi-cards.jpeg"
+          alt="Galen and Helmi sitting together at a table looking at a hand of cards"
+        />
+      </figure>
+
+      <aside class="hero-overlay">
+        <p class="quote">Dad</p>
+        <hr class="divider" aria-hidden="true" />
+        <p class="bio-detail">May 14</p>
+      </aside>
+
+      <figure class="hero-right">
+        <img
+          src="assets/galen-koala.jpeg"
+          alt="Galen holding a sleepy koala at a wildlife park"
+        />
+        <h1 class="member-name">Galen</h1>
+      </figure>
+    </section>
+
+    <!-- Prev / Next Navigation -->
+    <nav class="member-nav" aria-label="Navigate between family members">
+      <a href="../sisters/sisters.html">&larr; Sisters</a>
+      <a href="../../index.html" class="nav-home">&#8962; All Members</a>
+      <a href="../amy/amy.html">Amy &rarr;</a>
     </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="member-hero">
+    <!-- Photo Grid -->
+    <section class="member-grid" aria-label="Photo gallery">
+      <figure class="member-grid-cell">
+        <img
+          src="assets/galen-family-stairs.jpeg"
+          alt="Galen sitting on the stairs holding baby Irene, with Helmi clinging to the railing and Magnus the boxer dog standing in front"
+        />
+      </figure>
 
-    <div class="hero-photo">
-      <img src="galen-helmi-cards.jpeg" alt="Galen" />
-    </div>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/galen-baby-helmi.jpeg"
+          alt="Galen holding newborn Helmi in a hospital chair"
+        />
+      </figure>
 
-    <div class="hero-overlay">
-      <p class="quote">Dad</p>
-      <hr class="divider" />
-      <p class="bio-detail">May 14</p>
-    </div>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/galen-helmi-mario.jpeg"
+          alt="Galen dressed as Mario holding Helmi in a princess dress and crown"
+        />
+      </figure>
 
-    <div class="hero-right">
-      <img src="galen-koala.jpeg" alt="Galen with baby Irene" />
-      <h1 class="member-name">Galen</h1>
-    </div>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/galen-helmi-sweater.jpeg"
+          alt="Galen and baby Helmi in matching cream cable-knit sweaters, both giving a serious look at the camera"
+        />
+      </figure>
 
-  </section>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/galen-irene-hat.jpeg"
+          alt="Galen smiling down at baby Irene who is grabbing his hoodie, at what appears to be a restaurant or arcade"
+        />
+      </figure>
 
-  <!-- Prev / Next Navigation -->
-  <nav class="member-nav">
-    <a href="../sisters/sisters.html">&larr; Sisters</a>
-    <a href="../../index.html" class="nav-home">&#8962; All Members</a>
-    <a href="../amy/amy.html">Amy &rarr;</a>
-  </nav>
+      <figure class="member-grid-cell">
+        <img
+          src="assets/galen-baby-irene.jpeg"
+          alt="Galen holding newborn Irene in the NICU, wearing a hospital wristband"
+        />
+      </figure>
+    </section>
 
-  <!-- Photo Grid -->
-  <section class="member-grid">
-
-    <div class="member-grid-cell">
-      <img src="galen-family-stairs.jpeg" alt="Galen family on stairs" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="galen-baby-helmi.jpeg" alt="Galen and Helmi with baby Helmi" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="galen-helmi-mario.jpeg" alt="Galen and Helmi playing Mario" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="galen-helmi-sweater.jpeg" alt="Galen and Helmi in sweaters" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="galen-irene-hat.jpeg" alt="Galen and Irene with a hat" />
-    </div>
-
-    <div class="member-grid-cell">
-      <img src="galen-baby-irene.jpeg" alt="Galen with baby Irene" />
-    </div>
-
-  </section>
-
-  <footer class="site-footer">
-    &copy; Mullins Family Album | Created by Amy Posten
-  </footer>
-
-</body>
+    <footer class="site-footer" role="contentinfo">
+      &copy; Mullins Family Album | Created by Amy Posten
+    </footer>
+  </body>
 </html>
